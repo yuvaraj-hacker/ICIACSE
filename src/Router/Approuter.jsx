@@ -27,13 +27,13 @@ function Approuter() {
         <Routes>
           <Route element={<Main />}>
             <Route path="/" element={<Homes />} />
-            <Route path="/about" element={<Abouts />} />
+            {/* <Route path="/about" element={<Abouts />} />
             <Route path="/scope" element={<AimScopePage />} />
             <Route path="/organizing-committee" element={<EditorialPage />} />
             <Route path="/editorial-board" element={<IssuePage />} />
             <Route path="/paper-submission" element={<AbstractingPage />} />
             <Route path="/conference-tracks" element={<PeerPage />} />
-            <Route path="/key-dates" element={<PublicationPage />} />
+            <Route path="/key-dates" element={<PublicationPage />} /> */}
             {/* <Route path="/author-guidelines" element={<GuidelinePage />} />
             <Route path="/article-processing" element={<ArticlePage />} />
             <Route path="/plagiarism" element={<PlagiarismPage />} />

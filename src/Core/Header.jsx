@@ -1,4 +1,4 @@
-import { Twirl as Hamburger } from 'hamburger-react'
+import { Divide as Hamburger } from 'hamburger-react'
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 const Header = () => {
@@ -79,8 +79,8 @@ const Header = () => {
 
   return (
     <>
-      <section className="bg-gradient-to-r from-[#2487DB] to-[#014BBD]">
-        <div className="max-w-[80rem] mx-auto md:px-5 px-3 md:py-0 py-2 bg-gradient-to-r from-[#2487DB] to-[#014BBD]  ">
+      <section className=" bg-gradient-to-r from-[#032530] to-[#0A3B47]">
+        <div className="max-w-[80rem] mx-auto md:px-5 px-3 md:py-0 py-2  bg-gradient-to-r from-[#032530] to-[#0A3B47]  ">
           <div className="flex items-center justify-between lg:gap-0  gap-5  ">
             <Link to='/'>
               <div className="md:hidden block   ">
@@ -89,7 +89,7 @@ const Header = () => {
               </div>
             </Link>
             <div className={`md:hidden block  ${menuOpen ? "z-50" : ""}`}>
-              <Hamburger toggled={menuOpen} color={menuOpen ? "#014BBD" : "#fff"} direction='right' toggle={setMenuOpen} />
+              <Hamburger toggled={menuOpen} color={menuOpen ? "#032530" : "#fff"} direction='right' toggle={setMenuOpen} />
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ const Header = () => {
       </div> */}
       <section
         // className={`md:bg-white  md:border-b-4  border-b-[#14AE5C]  ${menuOpen ? " block" : " md:block hidden"}`}
-        className={` -xl fixed top-0 right-0 h-full w-64 z-40  py-3  ${menuOpen ? "translate-x-0 duration-300" : "translate-x-full duration-300"} md:block md:relative md:w-auto md:translate-x-0`} >
+        className={` -xl fixed top-0 right-0 h-full w-64 z-40  py-3  ${menuOpen ? "translate-x-0 duration-300 bg-white" : "translate-x-full duration-300"} md:block md:relative md:w-auto md:translate-x-0`} >
         <header className="max-w-[90rem] mx-auto md:px-5 px-2 h-full   w-full">
           <div className="md:flex md:justify-between justify-center items-center ">
             <Link to='/'>
@@ -141,7 +141,7 @@ const Header = () => {
                     // onMouseLeave={handleMouseLeave}
                     onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
                     onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}>
-                    <Link to={link.to} className={`py-2 flex lg:w-[144px] md:w-[130px] w-full transition-all duration-300 ease-in-out lg:text-base md:text-sm justify-center items-center gap-2   font-semibold  lg:text-[#032530] text-white ${isActive(link.to) || hoveredCategory === link.label ? 'md:border-t-0 duration-300 ' : ''} `}
+                    <Link to={link.to} className={`py-2 flex lg:w-[144px] md:w-[130px] w-full transition-all duration-300 ease-in-out lg:text-base md:text-sm justify-center items-center gap-2   font-semibold  lg:text-[#032530] md:text-white text-[#032530] ${isActive(link.to) || hoveredCategory === link.label ? 'md:border-t-0 duration-300 ' : ''} `}
                       onClick={(e) => { if (link.dropdown) { e.preventDefault(); setHoveredCategory((prev) => (prev === link.label ? null : link.label)); } else { setMenuOpen(false); } }}   >
                       {link.label}
                       {link.dropdown && (<i className={`fi fi-sr-angle-circle-down flex items-center  transition-all duration-300 ease-in-out  rounded-full   ${hoveredCategory === link.label ? '   rotate-180 duration-100' : ' '} `}></i>)}

@@ -71,7 +71,6 @@ export const Home = () => {
       Name: 'Name',
       Position: 'Position',
     },
-
   ];
 
   const date = [
@@ -118,6 +117,9 @@ export const Home = () => {
           <i class="fi fi-ss-down text-black text-2xl"></i>
         </div> */}
       </section>
+      {/* <section className="h-[20vh]">
+
+      </section> */}
       {/* <section className=" ">
         <section className="max-w-[80rem] pt-7 md:pt-10 mx-auto md:px-5 px-3 flex flex-col md:gap-10 gap-5">
           <section className="grid md:grid-cols-1 grid-cols-1 md:gap-5 gap-3 items-start">
