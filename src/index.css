@@ -154,6 +154,7 @@ body {
     100% {
         transform: rotate(0deg);
     }
+
     50% {
         transform: rotate(30deg);
     }
@@ -170,4 +171,13 @@ body {
         width: 100%;
         height: 100%;
     }
+}
+
+@media (min-width: 1024px) {
+
+.bg-gradient-header {
+    background-image: linear-gradient(-120deg, white 52.5%, #032530 40.2%);
+    width: 100%;
+    height: 100%;
+}
 }

@@ -4,42 +4,43 @@ import { Link } from 'react-router-dom'
 function LastSection() {
     return (
         <>
-            <section className='px-3 '>
-                <section className="w-full max-w-[80rem] py-7 md:py-10 mx-auto   bg-cover flex justify-center items-center bg-gradient-to-r from-[#2487DB] to-[#014BBD] lg:mb-10 mb-5  p-5 md:p-10" style={{ clipPath: 'polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 40px 100%, 0 calc(100% - 40px))' }}>
-                    <div className=" max-w-[100rem]  md:mx-auto mx-0     ">
+            <section className=' '>
+                <section className="w-full  relative bg-cover flex justify-center items-center bg-[url('/assets/images/last.jpg')] bg-no-repeat  bg-bottom " >
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#032530]/60 to-[#0A3B47]/60 z-0"></div>
+                    <div className="max-w-[100rem] relative  md:mx-auto mx-0  md:py-10 py-5 ">
                         <section className=" flex flex-col gap-10 ">
-                            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 md:gap-10">
-                                <div className="text-center flex  md:flex-row flex-col items-center md:gap-4 gap-2">
-                                    <div className=" px-4 py-4 bg-[#0000ff]  w-fit rounded-full">
-                                        <i className="fi fi-rs-land-layer-location text-white flex items-center text-2xl md:text-2xl " />
+                            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 lg:gap-20 md:gap-10" >
+                                <div className="text-center flex  p-10 flex-col justify-center items-center md:gap-4 gap-2 border-2 border-white bg-gradient-to-r from-[#032530] to-[#0A3B47]  rounded-xl">
+                                    <div className=" ">
+                                        <i className="fi fi-rs-land-layer-location text-white flex items-center text-2xl md:text-5xl " />
                                     </div>
-                                    <div className="md:text-lg text-sm text-white" >
+                                    <div className="md:text-2xl text-sm text-white" >
                                         {/* <p>International Convention Center</p> */}
                                         <p>Beijing, China</p>
                                     </div>
                                 </div>
-                                <div className="text-center flex md:flex-row flex-col  items-center md:gap-4 gap-2 mx-auto  ">
-                                    <div className=" px-4 py-4 bg-[#097a3e] w-fit rounded-full">
-                                        <i className="fi fi-rr-clock text-white flex items-center text-2xl md:text-2xl " />
+                                <div className="text-center flex p-10 flex-col  items-center md:gap-4 gap-2 mx-auto border-2 border-white bg-gradient-to-r from-[#032530] to-[#0A3B47] rounded-xl">
+                                    <div className="  ">
+                                        <i className="fi fi-rr-clock text-white flex items-center text-2xl md:text-5xl " />
                                     </div>
-                                    <div className="md:text-lg text-sm text-white">
+                                    <div className="md:text-2xl text-sm text-white">
                                         <p>September 26-27, 2025</p>
                                         <p>9:00 AM - 6:00 PM</p>
                                     </div>
                                 </div>
-                                <div className="text-center flex  md:flex-row flex-col  items-center md:gap-4 gap-2 mx-auto " >
-                                    <div className=" px-4 py-4 bg-[#1b2150] w-fit rounded-full">
-                                        <i className="fi fi-ss-envelope text-white flex items-center text-2xl md:text-2xl "></i>
+                                <div className="text-center flex  p-10 flex-col justify-center items-center md:gap-4 gap-2 mx-auto border-2 border-white bg-gradient-to-r from-[#032530] to-[#0A3B47] rounded-xl" >
+                                    <div className="  ">
+                                        <i className="fi fi-ss-envelope text-white flex items-center text-2xl md:text-5xl "></i>
                                     </div>
-                                    <div className="md:text-lg text-sm text-white">
-                                        <p>info.ictigd@gmail.com</p>
-                                        <p>Chennai, India</p>
+                                    <div className="md:text-2xl text-sm text-white">
+                                        <p>info.iciacse@gmail.com</p>
+
                                     </div>
                                 </div>
                             </div>
                             <div className='w-fit mx-auto'>
                                 <Link to="/paper-submission">
-                                    <div className=" bg-white hover:bg-[#f0f4ff] py-3 w-fit text-[#014BBD] px-6 mx-auto cursor-pointer font-semibold shadow-md    group duration-300 md:text-base text-sm">
+                                    <div className=" bg-[#4AF8BA]  transition-all  transform hover:-translate-y-1  py-3 w-fit text-[#032530] px-6 mx-auto cursor-pointer font-semibold  rounded-full   group duration-300 md:text-base text-sm">
                                         <p className=""> Register Now</p>
                                     </div>
                                 </Link>

@@ -21,15 +21,10 @@ import React from 'react';
 
 function KeyDates({ Dates, Title }) {
     return (
-        <section className="relative  " >
-            <div className="flex items-center gap-5 z-10 relative  h-full ">
-                <div className="  text-[#1B1F3B] font-semibold p-5 bg-gradient-to-r from-[#2487DB] to-[#014BBD] rounded-full text-sm md:text-base  whitespace-nowrap">
-                    <i className="fi fi-sr-calendar flex items-center text-white md:text-3xl text-xl"></i>
-                </div>
-                <div className="md:text-base text-sm font-medium flex flex-col gap-5">
-                    <p className=" w-fit p-2 text-white   md:px-5 px-3 bg-gradient-to-r from-[#2487DB] to-[#014BBD]">{Dates}</p>
-                    <p className="md:text-lg "> {Title}</p>
-                </div>
+        <section className=" " >
+            <div className=" z-10   flex flex-col gap-4  h-full ">
+                <p className=" text-[#0A3B47] bg-[#4AF8BA] font-semibold p-2 px-6 rounded-full w-fit mx-auto  text-center ">{Dates}</p>
+                <p className="md:text-lg  text-white"> {Title}</p>
             </div>
             {/* <div className="absolute top-0 right-0 w-20 h-20 bg-[#269C52] rounded-bl-full transform translate-x-6 -translate-y-6 -hover:scale-110 transition-transform duration-500"></div> */}
         </section>

@@ -3,11 +3,10 @@ import { Briefcase, Building2, MapPin, User } from 'lucide-react'
 function Edit({ position, Name, location }) {
     return (
         <>
-            <div style={{
-                clipPath: 'polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px))',
-            }} className=" relative bg-gradient-to-br from-white to-gray-50  hover:shadow-2xl shadow-xl transition-all duration-500 p-6 transform hover:-translate-y-2  ">
+            <div className=" relative bg-gradient-to-br from-white to-gray-50 border-2 border-b-4 rounded-xl  hover:shadow-2xl shadow-xl transition-all duration-500 p-6 transform hover:-translate-y-2">
                 <div className="relative z-10 text-center  flex flex-col gap-2 ">
                     <div>
+                        <i class="fi fi-rr-circle-user text-xl"></i>
                         <h3 className="md:text-lg font-bold text-gray-800 -hover:text-blue-600 transition-colors duration-300">
                             {Name}
                         </h3>

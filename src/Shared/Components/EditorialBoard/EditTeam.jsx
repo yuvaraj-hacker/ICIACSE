@@ -25,18 +25,11 @@ import React from 'react'
 
 function EditTeam({ position, Name, location, dataAos, avatar }) {
     return (
-        <div style={{
-            clipPath: 'polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px))',
-        }} className="group relative bg-white    shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2   overflow-hidden">
+        <div className="group relative bg-white  border-2 border-b-4    rounded-xl    shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2   overflow-hidden">
             {/* Background gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             {/* Position badge */}
-
-
             {/* Card content */}
-            <div className="relative p-6 text-center">
-
-
+            <div className="relative p-6 text-center   ">
                 {/* Name and location */}
                 <div className="space-y-2">
                     <h3 className="font-bold text-lg text-gray-800 group-hover:text-[#1B1F3B] transition-colors duration-300">
@@ -49,9 +42,8 @@ function EditTeam({ position, Name, location, dataAos, avatar }) {
                         {location}
                     </p>
                 </div>
-
             </div>
-            <div className="relative   px-4 py-3 text-center font-semibold text-sm tracking-wide">
+            <div className="relative  bg-gradient-to-r from-[#032530] to-[#0A3B47] text-white  px-4 py-3 text-center font-semibold text-sm tracking-wide">
                 {position}
             </div>
         </div>

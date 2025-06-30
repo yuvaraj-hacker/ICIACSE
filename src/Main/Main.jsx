@@ -63,7 +63,7 @@ const Main = () => {
         <Footer />
       </div>
       {showScroll && (
-        <button onClick={scrollToTop} className="fixed bottom-5 right-5  bg-gradient-to-r from-[#2487DB] to-[#014BBD]  text-white cursor-pointer p-3 rounded-full shadow-lg transition-opacity hover:bg-opacity-80"  >
+        <button onClick={scrollToTop} className="fixed bottom-5 right-5  bg-gradient-to-r from-[#032530] to-[#0A3B47]  text-white cursor-pointer p-3 rounded-full shadow-lg transition-opacity hover:bg-opacity-80"  >
           <IoIosArrowUp className="md:text-xl" />
         </button>
       )}
