@@ -10,7 +10,7 @@ function Contct() {
                     <div className="max-w-[100rem] relative  md:mx-auto mx-0  md:py-10 py-5 ">
                         <section className=" flex flex-col gap-10 ">
                             <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 lg:gap-20 md:gap-10">
-                                <div className="text-center flex  p-10 flex-col items-center md:gap-4 gap-2 border-2 border-white bg-gradient-to-r from-[#032530] to-[#0A3B47]  rounded-xl">
+                                <div className="text-center flex  p-10 flex-col items-center justify-center md:gap-4 gap-2 border-2 border-white bg-gradient-to-r from-[#032530] to-[#0A3B47]  rounded-xl">
                                     <div className=" ">
                                         <i className="fi fi-rs-land-layer-location text-white flex items-center text-2xl md:text-5xl " />
                                     </div>
@@ -19,7 +19,7 @@ function Contct() {
                                         <p>Beijing, China</p>
                                     </div>
                                 </div>
-                                <div className="text-center flex p-10 flex-col  items-center md:gap-4 gap-2 border-2 border-white mx-auto  bg-gradient-to-r from-[#032530] to-[#0A3B47] rounded-xl">
+                                <div className="text-center flex p-10 flex-col  items-center  justify-center md:gap-4 gap-2 border-2 border-white mx-auto  bg-gradient-to-r from-[#032530] to-[#0A3B47] rounded-xl">
                                     <div className="  ">
                                         <i className="fi fi-rr-clock text-white flex items-center text-2xl md:text-5xl " />
                                     </div>
@@ -28,13 +28,13 @@ function Contct() {
                                         <p>9:00 AM - 6:00 PM</p>
                                     </div>
                                 </div>
-                                <div className="text-center flex  p-10 flex-col items-center md:gap-4 gap-2 border-2 border-white mx-auto bg-gradient-to-r from-[#032530] to-[#0A3B47] rounded-xl" >
+                                <div className="text-center flex  p-10 flex-col items-center justify-center  md:gap-4 gap-2 border-2 border-white mx-auto bg-gradient-to-r from-[#032530] to-[#0A3B47] rounded-xl" >
                                     <div className="  ">
                                         <i className="fi fi-ss-envelope text-white flex items-center text-2xl md:text-5xl "></i>
                                     </div>
                                     <div className="md:text-2xl text-sm text-white">
                                         <p>info.iciacse@gmail.com</p>
-                                        <p>Chennai, India</p>
+                                        {/* <p>Chennai, India</p> */}
                                     </div>
                                 </div>
                             </div>
