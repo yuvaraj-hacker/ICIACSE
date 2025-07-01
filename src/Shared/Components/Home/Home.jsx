@@ -88,13 +88,13 @@ export const Home = () => {
         <section className="relative lg:h-[80vh] w-full "  >
           <div className=" h-full w-full   bg-cover object-center z-0 flex items-center justify-center ">
             <div className="  z-10 lg:pt-0 pt-20  lg:pb-0 pb-10 flex  justify-center items-center lg:gap-7 gap-5 styless   bg-gradient-to-r from-[#032530] to-[#0A3B47] " >
-              <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-[90rem] mx-auto md:gap-10 gap-5 items-center 2xl:px-5 px-5 2xl:pr-0 pr-10">
-                <div className="lg:ml-auto mx-auto flex flex-col gap-6 lg:px-0 px-4">
+              <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-[90rem] mx-auto md:gap-10 gap-5 items-center 2xl:px-5 md:px-5 px-3 2xl:pr-0 md:pr-10">
+                <div className="lg:ml-auto mx-auto flex flex-col gap-6 lg:px-0  ">
                   <h1 className="text-2xl 2xl:text-5xl lg:text-4xl font-bold leading-snug  md:text-left text-center text-white">
                     International <span className=" text-[#4AF8BA]">Conference</span>  on Innovations in Advanced Computing and Software Engineering </h1>
                   <div className=" md:mx-0 mx-auto transition-all duration-300 transform hover:-translate-y-1">
                     <Link to="/paper-submission">
-                      <button className=" bg-[#4AF8BA] duration-300 md:text-base text-sm rounded-full  font-semibold  text-[#032530] px-6 py-3   cursor-pointer   ">
+                      <button className=" bg-[#4AF8BA] duration-300 md:text-base text-sm rounded-full  font-semibold  text-[#032530] px-6 md:py-3 py-2.5   cursor-pointer   ">
                         Register Now
                       </button>
                     </Link>

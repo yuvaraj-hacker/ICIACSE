@@ -63,7 +63,7 @@ function About() {
         </section>
         <section className="">
           <div className="mx-auto text-justify  space-y-4 text-sm md:text-base leading-7">
-            <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]">
+            <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]  p-1">
               <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
                 Vision
               </span>
