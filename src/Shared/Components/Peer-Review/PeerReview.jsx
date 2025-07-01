@@ -72,7 +72,7 @@ function PeerReview() {
                         }
                     ].map((track, index) => (
                         <>
-                            <div key={index} className="group flex items-start gap-4 bg-white  transition-all duration-300 transform hover:-translate-y-2 border-2 border-[#0A3B47] border-b-4 border-b-[#0A3B47] p-5 rounded-xl  "  >
+                            <div key={index} className="group flex items-start gap-4 bg-white  transition-all duration-300 transform hover:-translate-y-2 border-2 border-[#0A3B47] border-b-4 border-b-[#0A3B47] p-5 "  >
                                 <div className="flex-1">
                                     <h3 className="text-gray-800 font-bold md:text-lg text-base  transition-colors">
                                         {track.title}

@@ -84,7 +84,7 @@ function AimandScope() {
                             </p>                        </div>
                     </div>
                     <div className=" overflow-hidden">
-                        <img className="h-64 sm:h-80 w-full object-cover rounded-xl" rel="preload" src="/assets/images/five.jpg" alt="Conference Visual" />
+                        <img className="h-64 sm:h-80 w-full object-cover " rel="preload" src="/assets/images/five.jpg" alt="Conference Visual" />
                     </div>
                 </section>
                 <section className="">
@@ -98,7 +98,7 @@ function AimandScope() {
                             {topics.map((topic, index) => (
                                 <div
                                     key={index}
-                                    className="bg-white shadow-md rounded-xl p-6 border-2 border-[#0A3B47] border-b-4 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                                    className="bg-white shadow-md   p-6 border-2 border-[#0A3B47] border-b-4 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
                                 >
                                     <h3 className="text-xl font-semibold text-[#032530] mb-2 text-left">{topic.title}</h3>
                                     <p className="text-gray-600 md:text-base text-sm">{topic.desc}</p>

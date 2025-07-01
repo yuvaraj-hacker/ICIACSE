@@ -65,37 +65,44 @@ function Contact() {
                                 </div>
                                 <div className="mx-auto max-w-screen-md relative">
                                     {/* <div className="absolute top-0 right-0 w-20 h-20 bg-[#269C52] rounded-bl-full transform translate-x-6 -translate-y-6 -hover:scale-110 transition-transform duration-500"></div> */}
-                                    <form onSubmit={handleSubmit} className="w-full grid lg:grid-cols-1 gap-5 bg-gradient-to-r shadow-xl rounded-xl text-white   from-[#032530] to-[#0A3B47]   p-5 "
+                                    <form onSubmit={handleSubmit} className="w-full grid lg:grid-cols-1 gap-5 bg-gradient-to-r shadow-xl   text-white   from-[#032530] to-[#0A3B47]   p-5 "
                                         ngNativeValidate>
                                         <div className="">
                                             <label for="email" className="block mb-2 text-sm mt-4   ">
                                                 Name
                                             </label>
-                                            <input type="text" name="name" id="name" value={formData.name} onChange={handleChange} ngModel className="shadow-sm rounded-md  border text-sm    border-gray-300  focus:outline-none bg-white text-black focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  mt-4" placeholder="Enter Your Name" required />
+                                            <input type="text" name="name" id="name" value={formData.name} onChange={handleChange} ngModel className="shadow-sm    border text-sm    border-gray-300  focus:outline-none bg-white text-black focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  mt-4" placeholder="Enter Your Name" required />
                                         </div>
                                         <div>
                                             <label for="email" className="block mb-2 text-sm mt-4  ">
                                                 Email
                                             </label>
-                                            <input type="email" name="email" id="email" onChange={handleChange} value={formData.email} ngModel className="shadow-sm rounded-md   focus:outline-none border bg-white text-black   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
+                                            <input type="email" name="email" id="email" onChange={handleChange} value={formData.email} ngModel className="shadow-sm     focus:outline-none border bg-white text-black   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
                                                 placeholder="name@gmail.com" required />
                                         </div>
                                         <div>
                                             <label for="email" className="block mb-2 text-sm       mt-4 "  >
                                                 Contact Number
                                             </label>
-                                            <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} ngModel className="shadow-sm rounded-md   focus:outline-none bg-white text-black  border   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
+                                            <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} ngModel className="shadow-sm     focus:outline-none bg-white text-black  border   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
                                                 placeholder="Enter Your Mobile Number" required />
                                         </div>
                                         <div className="  mt-4">
                                             <label for="message" className="block mb-2 text-sm   ">
                                                 Your Message
                                             </label>
-                                            <textarea id="message" name="message" value={formData.message} onChange={handleChange} ngModel rows="4" className="block rounded-md  p-2.5 w-full text-sm shadow-sm border bg-white text-black  focus:outline-none   border-gray-300   focus:ring-primary-500 focus:border-primary-500   mt-4 " placeholder="Leave a Message..." ></textarea>
+                                            <textarea id="message" name="message" value={formData.message} onChange={handleChange} ngModel rows="4" className="block    p-2.5 w-full text-sm shadow-sm border bg-white text-black  focus:outline-none   border-gray-300   focus:ring-primary-500 focus:border-primary-500   mt-4 " placeholder="Leave a Message..." ></textarea>
                                         </div>
                                         <div className="text-center md:mt-0 mt-5   ">
-                                            <button type="submit" className="py-3 px-6 text-sm   text-center  transition-all  transform hover:-translate-y-1 shadow-lg  hover:shadow-xl  rounded-full bg-[#4AF8BA]   duration-300  text-[#032530]  cursor-pointer  font-semibold   " >
+                                            <button type="submit" className="py-3 px-6 text-sm   text-center relative overflow-hidden group z-10  shadow-lg  hover:shadow-xl    bg-white   duration-300  text-[#032530]  cursor-pointer  font-semibold   " >
                                                 {status === 'Sending...' ? 'Submitting...' : 'Send message'}
+
+                                                <span
+                                                    style={{
+                                                        clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)'
+                                                    }}
+                                                    className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa] to-[#0ae8d4] transform -translate-x-[100%] group-hover:translate-x-0 w-[200px] transition-transform duration-500 ease-in-out -z-10"
+                                                ></span>
                                             </button>
                                         </div>
                                     </form>

@@ -34,10 +34,7 @@ function Approuter() {
             <Route path="/scope" element={<AimScopePage />} />
             <Route path="/editorial-board" element={<IssuePage />} />
             <Route path="/organizing-committee" element={<EditorialPage />} />
-
             {/*
-
-
          */}
             {/* <Route path="/author-guidelines" element={<GuidelinePage />} />
             <Route path="/article-processing" element={<ArticlePage />} />

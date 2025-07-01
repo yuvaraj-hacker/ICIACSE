@@ -23,8 +23,8 @@ function KeyDates({ Dates, Title }) {
     return (
         <section className=" " >
             <div className=" z-10   flex flex-col gap-4  h-full ">
-                <p className=" text-[#0A3B47] bg-[#4AF8BA] font-semibold p-2 px-6 rounded-full w-fit mx-auto  text-center ">{Dates}</p>
-                <p className="md:text-lg  text-white"> {Title}</p>
+                <p className=" text-[#0A3B47] bg-[#4AF8BA] font-semibold p-2 px-6   w-fit mx-auto  text-center ">{Dates}</p>
+                <p className="md:text-lg  text-white text-center"> {Title}</p>
             </div>
             {/* <div className="absolute top-0 right-0 w-20 h-20 bg-[#269C52] rounded-bl-full transform translate-x-6 -translate-y-6 -hover:scale-110 transition-transform duration-500"></div> */}
         </section>

@@ -3,7 +3,7 @@ import { Briefcase, Building2, MapPin, User } from 'lucide-react'
 function Edit({ position, Name, location }) {
     return (
         <>
-            <div className=" relative bg-gradient-to-br from-white to-gray-50 border-2 border-b-4 rounded-xl  hover:shadow-2xl shadow-xl transition-all duration-500 p-6 transform hover:-translate-y-2">
+            <div className=" relative bg-gradient-to-br from-white to-gray-50 border-2 border-b-4  hover:shadow-2xl shadow-xl transition-all duration-500 p-6 transform hover:-translate-y-2">
                 <div className="relative z-10 text-center  flex flex-col gap-2 ">
                     <div>
                         <i class="fi fi-rr-circle-user text-xl"></i>

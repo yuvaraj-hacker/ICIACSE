@@ -86,8 +86,8 @@ export const Home = () => {
     <>
       <section className="  relative overflow-hidden">
         <section className="relative lg:h-[80vh] w-full "  >
-          <div className=" h-full w-full   bg-cover object-center z-0 flex items-center justify-center ">
-            <div className="  z-10 lg:pt-0 pt-20  lg:pb-0 pb-10 flex  justify-center items-center lg:gap-7 gap-5 styless   bg-gradient-to-r from-[#032530] to-[#0A3B47] " >
+          <div className=" h-full w-full bg-cover object-center z-0 flex items-center justify-center ">
+            <div className=" z-10 lg:pt-0 pt-20  lg:pb-0 pb-10 flex  justify-center items-center lg:gap-7 gap-5 styless   bg-gradient-to-r from-[#032530] to-[#0A3B47] " >
               <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-[90rem] mx-auto md:gap-10 gap-5 items-center 2xl:px-5 md:px-5 px-3 2xl:pr-0 md:pr-10">
                 <div className="lg:ml-auto mx-auto flex flex-col gap-6 lg:px-0  ">
                   <h1 className="text-2xl 2xl:text-5xl lg:text-4xl font-bold leading-snug  md:text-left text-center text-white">
@@ -105,7 +105,7 @@ export const Home = () => {
                           style={{
                             clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)'
                           }}
-                          className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa] to-[#0ae8d4] transform -translate-x-[85%] group-hover:translate-x-0 w-[200px] transition-transform duration-500 ease-in-out z-0"
+                          className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa] to-[#0ae8d4] transform -translate-x-[100%] group-hover:translate-x-0 w-[200px] transition-transform duration-500 ease-in-out z-0"
                         ></span>
                       </button>
                     </Link>
@@ -157,28 +157,46 @@ export const Home = () => {
                 <div>
                 </div>
               </div>
-              <div className="grid lg:grid-cols-7 gap-5 items-start">
-                <img src="/assets/images/abouts.jpg" className=" mx-auto   col-span-3" alt="" />
-                <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0 ">
+              <div className="grid lg:grid-cols-7 gap-5 md:items-start  items-center">
+                <img src="/assets/images/abouts.jpg" className=" mx-auto   md:col-span-3" alt="" />
+                <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0  md:bg-white bg-[#032530]  md:p-0 p-4">
                   <div className=" flex lg:flex-col flex-row">
-                    <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[60px]" style={{ lineHeight: "1" }}>20</h1>
-                    <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[60px]" style={{ lineHeight: "1" }}>25</h1>
+                    <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[50px]" style={{ lineHeight: "1" }}>20</h1>
+                    <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[50px]" style={{ lineHeight: "1" }}>25</h1>
                   </div>
-                  <p className="m-0 p-0 md:text-2xl text-xl  font-bold">20 August</p>
+                  <p className="m-0 p-0 md:text-2xl text-lg  font-bold">20 August</p>
                 </div>
-                <div className="col-span-3">
+                <div className="md:col-span-3">
                   <div className=" flex flex-col gap-3 ">
                     <p className="text-justify md:text-lg text-sm leading-7">
                       International Conference on Innovations in Advanced Computing and Software Engineering is a premier interdisciplinary platform for researchers, engineers, academicians, and industry professionals to present and discuss the latest innovations, trends, and concerns in the fields of advanced computing and software engineering. This conference aims to foster the exchange of cutting-edge ideas and collaborative research among participants from around the globe.
                       The event provides an ideal forum to explore breakthroughs in AI and machine learning, cloud and edge computing, cybersecurity, software architecture, IoT systems, and other emerging areas.
                     </p>
-                    <div className="md:mx-0 mx-auto transition-all duration-300 transform hover:-translate-y-1">
+                    <div className="md:mx-0 mx-auto">
                       <Link to="/about">
-                        <button className="font-semibold bg-[#4AF8BA]  rounded-full duration-300 text-[#032530] md:text-base text-sm px-6 py-2 md:py-3  cursor-pointer">
+                        <button className="font-semibold z-10    text-white md:text-base text-sm relative bg-[#032530]   group overflow-hidden  cursor-pointer  px-6 py-2 md:py-3 " >
                           Read More
+                          <span
+                            style={{
+                              clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)'
+                            }}
+                            className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa]    to-[#0ae8d4] transform -translate-x-[100%] group-hover:translate-x-0 w-[200px] transition-transform duration-500 ease-in-out -z-10"
+                          ></span>
                         </button>
                       </Link>
                     </div>
+                    {/* <div className=" md:mx-0 mx-auto">
+                      <Link to="/paper-submission">
+                        <button className="relative overflow-hidden px-6 md:py-3 py-2.5 font-semibold text-[#032530] bg-[#032530] group cursor-pointer w-fit">
+                          <span className="relative z-10 group-hover:text-[#032530] transition-colors duration-500">
+                            Read More
+                          </span>
+                          <span style={{ clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)' }}
+                            className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa] to-[#0ae8d4] transform -translate-x-[100%] group-hover:translate-x-0 w-[200px] transition-transform duration-500 ease-in-out z-0"
+                          ></span>
+                        </button>
+                      </Link>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -207,7 +225,7 @@ export const Home = () => {
               <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-5  ">
                 {date.map((item, index) => (
                   <>
-                    <div key={index} className=" w-full h-full flex items-center z-10 justify-center relative md:p-10 p-5 hover:shadow-xl rounded-xl transition duration-300 bg-linear-to-r from-[#032530] to-[#0A3B47] backdrop-blur-sm"  >
+                    <div key={index} className=" w-full h-full flex items-center z-10 justify-center relative md:p-10 p-5 hover:shadow-xl  transition duration-300 bg-linear-to-r from-[#032530] to-[#0A3B47] backdrop-blur-sm"  >
                       <KeyDates Dates={item.Dates} Title={item.Title} />
                       {/* <i class="fi fi-rr-angle-double-small-right absolute -right-5  text-[#4AF8BA] text-2xl "></i> */}
                     </div>
@@ -234,20 +252,20 @@ export const Home = () => {
                       <input type="text" name="name" id="name"
                         value={formData.name}
                         onChange={handleChange}
-                        ngModel className="shadow-sm   border text-sm   border-gray-300 rounded-md  bg-white text-black focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  mt-4" placeholder="Enter Your Name" required />
+                        ngModel className="shadow-sm   border text-sm   border-gray-300    bg-white text-black focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  mt-4" placeholder="Enter Your Name" required />
                     </div>
                     <div>
                       <label for="email" className="block mb-2 text-sm mt-4">
                         Email
                       </label>
-                      <input type="email" name="email" id="email" onChange={handleChange} value={formData.email} ngModel className="shadow-sm  rounded-md  border bg-white text-black   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
+                      <input type="email" name="email" id="email" onChange={handleChange} value={formData.email} ngModel className="shadow-sm     border bg-white text-black   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
                         placeholder="name@gmail.com" required />
                     </div>
                     <div>
                       <label for="email" className="block mb-2 text-sm      mt-4 "  >
                         Contact Number
                       </label>
-                      <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} ngModel className="shadow-sm rounded-md bg-white text-black  border   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
+                      <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} ngModel className="shadow-sm   bg-white text-black  border   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
                         placeholder="Enter Your Mobile Number" required />
                     </div>
                     <div className="  mt-4">
@@ -256,12 +274,18 @@ export const Home = () => {
                       </label>
                       <textarea id="message" name="message" value={formData.message} onChange={handleChange} ngModel
                         rows="4"
-                        className="block p-2.5 w-full text-sm shadow-sm border bg-white text-black rounded-md  border-gray-300   focus:ring-primary-500 focus:border-primary-500   mt-4 "
+                        className="block p-2.5 w-full text-sm shadow-sm border bg-white text-black    border-gray-300   focus:ring-primary-500 focus:border-primary-500   mt-4 "
                         placeholder="Leave a Message..." ></textarea>
                     </div>
                     <div className="text-center md:mt-0 mt-5  ">
-                      <button type="submit" className="py-3 px-6  transition-all duration-300 transform hover:-translate-y-1  font-semibold   text-center  md:text-base text-sm shadow-xl  rounded-full bg-[#4AF8BA]     text-[#032530]  cursor-pointer     " >
+                      <button type="submit" className="py-3 px-6  transition-all duration-300 z-10  relative overflow-hidden font-semibold   text-center  md:text-base text-sm shadow-xl  bg-white group     text-[#032530]  cursor-pointer     " >
                         {status === 'Sending...' ? 'Submitting...' : 'Send message'}
+                        <span
+                          style={{
+                            clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)'
+                          }}
+                          className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa] to-[#0ae8d4] transform -translate-x-[100%] group-hover:translate-x-0 w-[200px] transition-transform duration-500 ease-in-out -z-10"
+                        ></span>
                       </button>
                     </div>
                   </form>

@@ -28,7 +28,7 @@ function About() {
               </div>
             </div>
             <div className="grid lg:grid-cols-7   gap-5 items-start">
-              <img src="/assets/images/abouts.jpg" className=" mx-auto rounded-3xl col-span-3" alt="" />
+              <img src="/assets/images/abouts.jpg" className=" mx-auto   col-span-3" alt="" />
               <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0  ">
                 <div className=" flex lg:flex-col flex-row">
                   <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[60px]" style={{ lineHeight: "1" }}>20</h1>
@@ -54,7 +54,7 @@ function About() {
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-[80rem] mx-auto  gap-6">
             {attendees.map((item, index) => (
-              <div key={index} className="bg-gradient-to-r from-[#032530]  to-[#0A3B47] hover:shadow-xl  flex justify-center items-center  shadow-md  md:p-10 p-3   rounded-lg transition-all duration-300"   >
+              <div key={index} className="bg-gradient-to-r from-[#032530]  to-[#0A3B47] hover:shadow-xl  flex justify-center items-center  shadow-md  md:p-10 p-3    transition-all duration-300"   >
                 {/* <div className="text-xl font-semibold text-[#2487DB] mb-2">•</div> */}
                 <p className="text-white   md:text-lg text-sm font-medium text-center">{item}</p>
               </div>

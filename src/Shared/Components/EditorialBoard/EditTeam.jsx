@@ -25,7 +25,7 @@ import React from 'react'
 
 function EditTeam({ position, Name, location, dataAos, avatar }) {
     return (
-        <div className="group relative bg-white  border-2 border-b-4    rounded-xl    shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2   overflow-hidden">
+        <div className="group relative bg-white  border-2 border-b-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2   overflow-hidden">
             {/* Background gradient overlay */}
             {/* Position badge */}
             {/* Card content */}

@@ -43,11 +43,11 @@ function Publication() {
                                 event: "Last Date for Registration / Payment",
                             },
                         ].map((item, index) => (
-                            <div key={index} className="  relative  justify-center w-full h-full flex items-center  rounded-xl  shadow-md p-5 bg-gradient-to-r from-[#032530] to-[#0A3B47]"  >
+                            <div key={index} className="  relative  justify-center w-full h-full flex items-center     shadow-md p-5 bg-gradient-to-r from-[#032530] to-[#0A3B47]"  >
                                 <section className="  ">
                                     <div className="flex items-center justify-center gap-5 z-10   h-full w-full  text-center">
                                         <div className="md:text-base text-sm font-medium flex flex-col justify-center gap-5">
-                                            <p className=" w-fit p-2 text-[#032530]  md:px-5 px-3  bg-[#4AF8BA] rounded-full mx-auto">{item.date}</p>
+                                            <p className=" w-fit p-2 text-[#032530]  md:px-5 px-3  bg-[#4AF8BA]   mx-auto">{item.date}</p>
                                             <p className="md:text-lg text-white "> {item.event}</p>
                                         </div>
                                     </div>
@@ -67,12 +67,9 @@ function Publication() {
                     </div>
                     <div className="max-w-[80rem] mx-auto bg-gradient-to-tr from-[#032530] to-[#0A3B47]  rounded-xl  shadow-xl md:p-6 p-3">
                         <h2 className="md:text-2xl font-bold  mb-6 flex items-center gap-2 text-white">
-
                             Bank Account Information
                         </h2>
                         <div className='grid lg:grid-cols-2 gap-3'>
-
-
                             <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-6 mb-8">
                                 {[
                                     { label: 'Account Name', value: 'XXXXXXXX' },
@@ -81,15 +78,14 @@ function Publication() {
                                     { label: 'IFSC Code', value: 'XXXXXXXX' },
                                     { label: 'MICR', value: 'XXXXXXXX' },
                                 ].map((item, idx) => (
-                                    <div key={idx} className="bg-white p-4  rounded-xl  "  >
+                                    <div key={idx} className="bg-white p-4 "  >
                                         <p className="text-gray-500 text-sm font-medium">{item.label}</p>
                                         <p className="text-gray-900 font-semibold mt-1">{item.value}</p>
                                     </div>
                                 ))}
                             </div>
-
                             {/* Payment Instructions */}
-                            <div className="bg-white p-6   shadow-md rounded-xl" >
+                            <div className="bg-white p-6   shadow-md  " >
                                 <h3 className="text-xl font-semibold   mb-4 border-b border-b-[#4AF8BA] pb-2">
                                     Payment Instructions
                                 </h3>

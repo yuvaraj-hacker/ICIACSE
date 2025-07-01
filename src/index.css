@@ -175,9 +175,15 @@ body {
 
 @media (min-width: 1024px) {
 
-.bg-gradient-header {
-    background-image: linear-gradient(-120deg, white 52.5%, #032530 40.2%);
+    .bg-gradient-header {
+        background-image: linear-gradient(-120deg, white 52.5%, #032530 40.2%);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.style {
+    background-image: linear-gradient(-135deg, white 49.5%, #4AF8BA 50%);
     width: 100%;
     height: 100%;
-}
 }
