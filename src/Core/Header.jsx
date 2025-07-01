@@ -98,12 +98,12 @@ const Header = () => {
           <div className="flex items-center justify-between lg:gap-0  gap-5  ">
             <Link to='/'>
               <div className="lg:hidden block   ">
-                {/* <img className='w-32 h-14 object-contain  ' src="/assets/images/formobile.png" alt="" /> */}
-                <div className="   lg:hidden  block  text-white font-bold">ICIACSE</div>
+                <img className='w-32 h-12 object-contain ' src="/assets/images/ICIACSE LOGO.png" alt="" />
+                {/* <div className="   lg:hidden  block  text-white font-bold">ICIACSE</div> */}
               </div>
             </Link>
             <div className={`lg:hidden block  ${menuOpen ? "z-50" : ""}`}>
-              <Hamburger toggled={menuOpen} color={menuOpen ? "#032530" : "#fff"} direction='right' toggle={setMenuOpen} />
+              <Hamburger toggled={menuOpen} color={menuOpen ? "#032530" : "#fff"} direction='right' size={20} toggle={setMenuOpen} />
             </div>
           </div>
         </div>
@@ -142,8 +142,8 @@ const Header = () => {
         <header className="max-w-[90rem] mx-auto md:px-5 px-2 h-full   w-full">
           <div className="lg:flex lg:justify-between justify-center items-center ">
             <Link to='/'>
-              {/* <img className='lg:w-48 w-40 md:block hidden h-16 object-contain  ' src="/assets/images/ictigd-logo.png" alt="" /> */}
-              <div className="lg:block hidden  text-white  font-bold text-3xl">ICIACSE</div>
+              <img className='lg:w-40 w-40 md:block hidden h-10 ' src="/assets/images/ICIACSE LOGO.png" alt="" />
+              {/* <div className="lg:block hidden  text-white  font-bold text-3xl">ICIACSE</div> */}
             </Link>
             <nav ref={dropdownRef}>
               <div className={`lg:space-x-3 lg:block  mx-auto  lg:pt-0 pt-20  ${menuOpen ? "flex flex-col space-y-4" : ""}`}>
