@@ -29,7 +29,7 @@ function About() {
             </div>
             <div className="grid lg:grid-cols-7   gap-5 items-start">
               <img src="/assets/images/abouts.jpg" className=" mx-auto rounded-3xl col-span-3" alt="" />
-              <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0 ">
+              <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0  ">
                 <div className=" flex lg:flex-col flex-row">
                   <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[60px]" style={{ lineHeight: "1" }}>20</h1>
                   <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[60px]" style={{ lineHeight: "1" }}>25</h1>

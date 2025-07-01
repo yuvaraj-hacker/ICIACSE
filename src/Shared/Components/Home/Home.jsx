@@ -92,21 +92,32 @@ export const Home = () => {
                 <div className="lg:ml-auto mx-auto flex flex-col gap-6 lg:px-0  ">
                   <h1 className="text-2xl 2xl:text-5xl lg:text-4xl font-bold leading-snug  md:text-left text-center text-white">
                     International <span className=" text-[#4AF8BA]">Conference</span>  on Innovations in Advanced Computing and Software Engineering </h1>
-                  <div className=" md:mx-0 mx-auto transition-all duration-300 transform hover:-translate-y-1">
+                  <div className=" md:mx-0 mx-auto">
                     <Link to="/paper-submission">
-                      <button className=" bg-[#4AF8BA] duration-300 md:text-base text-sm rounded-full  font-semibold  text-[#032530] px-6 md:py-3 py-2.5   cursor-pointer   ">
+                      {/* <button className=" bg-[#4AF8BA] duration-300 md:text-base text-sm rounded-full  font-semibold  text-[#032530] px-6 md:py-3 py-2.5   cursor-pointer   ">
                         Register Now
+                      </button> */}
+                      <button className="relative overflow-hidden px-6 md:py-3 py-2.5 font-semibold text-[#032530] bg-white group cursor-pointer">
+                        <span className="relative z-10 group-hover:text-[#032530] transition-colors duration-500">
+                          Register Now
+                        </span>
+                        <span
+                          style={{
+                            clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)'
+                          }}
+                          className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa] to-[#0ae8d4] transform -translate-x-[85%] group-hover:translate-x-0 w-[200px] transition-transform duration-500 ease-in-out z-0"
+                        ></span>
                       </button>
                     </Link>
                   </div>
                 </div>
                 <div className="relative">
                   <div className="flex justify-center items-center lg:px-0 px-2 ">
-                    <img src="/assets/images/Hero-section.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:ml-auto mr-auto md:w-96 md:h-96 w-60 h-60 absolute p-5 lg:right-0 lg:left-auto    " />
+                    <img src="/assets/images/mainimage.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:ml-auto mr-auto md:w-96 md:h-96 w-60 h-60 absolute object-cover p-5 lg:right-0 lg:left-auto    " />
                     <img src="/assets/images/outline.png" alt="Conference" rel="preload" className=" lg:block hidden z-30 lg:ml-auto lg:mr-0 w-96 h-96 animate-oscillate" />
                     <img src="/assets/images/second-one.png" alt="Conference" rel="preload" className=" lg:hidden block z-30 lg:ml-auto lg:mr-0 md:w-96 md:h-96 w-60 h-60 animate-oscillate" />
-                    <img src="/assets/images/side.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:block hidden lg:ml-auto mr-auto w-24 h-24 absolute top-0  lg:right-auto     " />
-                    <img src="/assets/images/sidene.jpg" alt="Conference" rel="preload" className="rounded-full lg:block hidden z-30 lg:ml-auto mx-0 w-24 h-24 absolute bottom-24   -right-5  " />
+                    <img src="/assets/images/speaker.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:block hidden lg:ml-auto mr-auto w-24 h-24 absolute top-0  lg:right-auto object-cover  " />
+                    <img src="/assets/images/speak.jpg" alt="Conference" rel="preload" className="rounded-full lg:block hidden z-30 lg:ml-auto mx-0 w-24 h-24 absolute bottom-24 object-cover  -right-5  " />
                   </div>
                 </div>
               </div>
@@ -118,11 +129,11 @@ export const Home = () => {
         {/* <div className=" px-10 pt-10 pb-3 bg-white w-fit rounded-full -bottom-10 left-40 z-50  absolute">
           <i class="fi fi-ss-down text-black text-2xl"></i>
         </div> */}
-      </section>
+      </section >
       {/* <section className="h-[20vh]">
 
       </section> */}
-      <section className=" ">
+      < section className=" " >
         <section className="max-w-[90rem]  mx-auto md:px-5 px-3  md:py-10 py-5 mb-1">
           <section className="grid md:grid-cols-1 grid-cols-1 md:gap-5 gap-3 items-start">
             <div className='flex flex-col md:gap-7 gap-3'>
@@ -132,11 +143,22 @@ export const Home = () => {
                     About Us
                   </span>
                 </h1>
+                {/* <button className="relative overflow-hidden px-6 md:py-3 py-2.5 font-semibold text-[#032530] bg-white group mx-auto text-center flex justify-center">
+                  <span className="relative z-10 group-hover:text-[#032530] transition-colors duration-500">
+                    About Us
+                  </span>
+                  <span
+                    style={{
+                      clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)'
+                    }}
+                    className="absolute inset-0 bg-gradient-to-tr from-[#32e6aa] to-[#0ae8d4] transform -translate-x-[35%] group-hover:translate-x-0 w-[10vw] transition-transform duration-500 ease-in-out z-0"
+                  ></span>
+                </button> */}
                 <div>
                 </div>
               </div>
               <div className="grid lg:grid-cols-7 gap-5 items-start">
-                <img src="/assets/images/abouts.jpg" className=" mx-auto rounded-3xl col-span-3" alt="" />
+                <img src="/assets/images/abouts.jpg" className=" mx-auto   col-span-3" alt="" />
                 <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0 ">
                   <div className=" flex lg:flex-col flex-row">
                     <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[60px]" style={{ lineHeight: "1" }}>20</h1>
@@ -168,7 +190,7 @@ export const Home = () => {
             <h1 className="text-center w-fit mx-auto rounded-full font-semibold lg:text-3xl text-xl   text-white underline underline-offset-8 decoration-[#4AF8BA] ">
               Key Invitees
             </h1>
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-10 gap-8 pb-1">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 md:gap-10 gap-8 pb-1">
               {invitees.map((member, index) => (
                 <Invitees key={index} Name={member.Name} Position={member.Position} location={member.location} dataAos="flip-left" />
               ))}
@@ -196,55 +218,57 @@ export const Home = () => {
             </div>
           </div>
         </section>
-        <section className="w-full  bg-gradient-to-r from-[#032530] to-[#0A3B47]">
-          <div className="max-w-[50rem]  mx-auto lg:w-1/2 w-full text-white md:px-5 px-3 md:py-10 py-5">
-            <div className=" flex flex-col md:gap-7 gap-3">
-              <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl text-white underline underline-offset-8 decoration-[#4AF8BA]  ">
-                Contact
-              </h1>
-              <div className=" w-full">
-                <form onSubmit={handleSubmit} className="w-full grid lg:grid-cols-2 gap-3 rounded-xl" ngNativeValidate>
-                  <div className="">
-                    <label for="email" className="block mb-2 text-sm mt-4 ">
-                      Name
-                    </label>
-                    <input type="text" name="name" id="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      ngModel className="shadow-sm   border text-sm   border-gray-300 rounded-md  bg-white text-black focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  mt-4" placeholder="Enter Your Name" required />
-                  </div>
-                  <div>
-                    <label for="email" className="block mb-2 text-sm mt-4">
-                      Email
-                    </label>
-                    <input type="email" name="email" id="email" onChange={handleChange} value={formData.email} ngModel className="shadow-sm  rounded-md  border bg-white text-black   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
-                      placeholder="name@gmail.com" required />
-                  </div>
-                  <div>
-                    <label for="email" className="block mb-2 text-sm      mt-4 "  >
-                      Contact Number
-                    </label>
-                    <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} ngModel className="shadow-sm rounded-md bg-white text-black  border   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
-                      placeholder="Enter Your Mobile Number" required />
-                  </div>
-                  <div className="lg:col-span-2 mt-4">
-                    <label for="message" className="block mb-2 text-sm ">
-                      Your Message
-                    </label>
-                    <textarea id="message" name="message" value={formData.message} onChange={handleChange} ngModel
-                      rows="4"
-                      className="block p-2.5 w-full text-sm shadow-sm border bg-white text-black rounded-md  border-gray-300   focus:ring-primary-500 focus:border-primary-500   mt-4 "
-                      placeholder="Leave a Message..." ></textarea>
-                  </div>
-                  <div className="text-center md:mt-0 mt-5 lg:col-span-2 ">
-                    <button type="submit" className="py-3 px-6  transition-all duration-300 transform hover:-translate-y-1  font-semibold   text-center  md:text-base text-sm shadow-xl  rounded-full bg-[#4AF8BA]     text-[#032530]  cursor-pointer     " >
-                      {status === 'Sending...' ? 'Submitting...' : 'Send message'}
-                    </button>
-                  </div>
-                </form>
+        <section className="md:p-0 p-3">
+          <section className="w-full  bg-gradient-to-r from-[#032530] to-[#0A3B47] ">
+            <div className="max-w-[40rem]  mx-auto lg:w-1/2 w-full text-white md:px-5 px-3 md:py-10 py-5">
+              <div className=" flex flex-col md:gap-7 gap-3">
+                <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl text-white underline underline-offset-8 decoration-[#4AF8BA]  ">
+                  Contact
+                </h1>
+                <div className=" w-full">
+                  <form onSubmit={handleSubmit} className="w-full grid lg:grid-cols-1 gap-3 rounded-xl" ngNativeValidate>
+                    <div className="">
+                      <label for="email" className="block mb-2 text-sm mt-4 ">
+                        Name
+                      </label>
+                      <input type="text" name="name" id="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        ngModel className="shadow-sm   border text-sm   border-gray-300 rounded-md  bg-white text-black focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  mt-4" placeholder="Enter Your Name" required />
+                    </div>
+                    <div>
+                      <label for="email" className="block mb-2 text-sm mt-4">
+                        Email
+                      </label>
+                      <input type="email" name="email" id="email" onChange={handleChange} value={formData.email} ngModel className="shadow-sm  rounded-md  border bg-white text-black   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4 "
+                        placeholder="name@gmail.com" required />
+                    </div>
+                    <div>
+                      <label for="email" className="block mb-2 text-sm      mt-4 "  >
+                        Contact Number
+                      </label>
+                      <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} ngModel className="shadow-sm rounded-md bg-white text-black  border   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
+                        placeholder="Enter Your Mobile Number" required />
+                    </div>
+                    <div className="  mt-4">
+                      <label for="message" className="block mb-2 text-sm ">
+                        Your Message
+                      </label>
+                      <textarea id="message" name="message" value={formData.message} onChange={handleChange} ngModel
+                        rows="4"
+                        className="block p-2.5 w-full text-sm shadow-sm border bg-white text-black rounded-md  border-gray-300   focus:ring-primary-500 focus:border-primary-500   mt-4 "
+                        placeholder="Leave a Message..." ></textarea>
+                    </div>
+                    <div className="text-center md:mt-0 mt-5  ">
+                      <button type="submit" className="py-3 px-6  transition-all duration-300 transform hover:-translate-y-1  font-semibold   text-center  md:text-base text-sm shadow-xl  rounded-full bg-[#4AF8BA]     text-[#032530]  cursor-pointer     " >
+                        {status === 'Sending...' ? 'Submitting...' : 'Send message'}
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
         <LastSection />
         {/* <section className="  max-w-[80rem]  mx-auto  ">

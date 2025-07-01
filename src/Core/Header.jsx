@@ -156,7 +156,7 @@ const Header = () => {
                     <Link to={link.to} className={`py-2 flex lg:w-[144px] w-full transition-all duration-300 ease-in-out lg:text-base md:text-sm justify-center items-center gap-2   font-semibold  lg:text-[#032530]   text-[#032530] ${isActive(link.to) || hoveredCategory === link.label ? 'md:border-t-0 duration-300 ' : ''} `}
                       onClick={(e) => { if (link.dropdown) { e.preventDefault(); setHoveredCategory((prev) => (prev === link.label ? null : link.label)); } else { setMenuOpen(false); } }}   >
                       {link.label}
-                      {link.dropdown && (<i className={`fi fi-sr-angle-circle-down flex items-center  transition-all duration-300 ease-in-out  rounded-full   ${hoveredCategory === link.label ? '   rotate-180 duration-100' : ' '} `}></i>)}
+                      {link.dropdown && (<i className={`fi fi-ss-down flex items-center  transition-all duration-300 ease-in-out  rounded-full   ${hoveredCategory === link.label ? '   rotate-180 duration-100' : ' '} `}></i>)}
                     </Link>
                     {hoveredCategory === link.label && link.dropdown && (
                       <div className="lg:absolute left-0 top-full lg:w-[260px] w-full bg-gradient-to-r from-[#032530] to-[#0A3B47]  rounded-xl transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top  grid md:grid-cols-1 md:p-3 z-10">

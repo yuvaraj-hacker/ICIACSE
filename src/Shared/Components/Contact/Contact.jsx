@@ -65,7 +65,7 @@ function Contact() {
                                 </div>
                                 <div className="mx-auto max-w-screen-md relative">
                                     {/* <div className="absolute top-0 right-0 w-20 h-20 bg-[#269C52] rounded-bl-full transform translate-x-6 -translate-y-6 -hover:scale-110 transition-transform duration-500"></div> */}
-                                    <form onSubmit={handleSubmit} className="w-full grid lg:grid-cols-2 gap-5 bg-gradient-to-r shadow-xl rounded-xl text-white   from-[#032530] to-[#0A3B47]   p-5 "
+                                    <form onSubmit={handleSubmit} className="w-full grid lg:grid-cols-1 gap-5 bg-gradient-to-r shadow-xl rounded-xl text-white   from-[#032530] to-[#0A3B47]   p-5 "
                                         ngNativeValidate>
                                         <div className="">
                                             <label for="email" className="block mb-2 text-sm mt-4   ">
@@ -87,13 +87,13 @@ function Contact() {
                                             <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} ngModel className="shadow-sm rounded-md   focus:outline-none bg-white text-black  border   border-gray-300    text-sm   focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   mt-4  "
                                                 placeholder="Enter Your Mobile Number" required />
                                         </div>
-                                        <div className="lg:col-span-2 mt-4">
+                                        <div className="  mt-4">
                                             <label for="message" className="block mb-2 text-sm   ">
                                                 Your Message
                                             </label>
                                             <textarea id="message" name="message" value={formData.message} onChange={handleChange} ngModel rows="4" className="block rounded-md  p-2.5 w-full text-sm shadow-sm border bg-white text-black  focus:outline-none   border-gray-300   focus:ring-primary-500 focus:border-primary-500   mt-4 " placeholder="Leave a Message..." ></textarea>
                                         </div>
-                                        <div className="text-center md:mt-0 mt-5  lg:col-span-2">
+                                        <div className="text-center md:mt-0 mt-5   ">
                                             <button type="submit" className="py-3 px-6 text-sm   text-center  transition-all  transform hover:-translate-y-1 shadow-lg  hover:shadow-xl  rounded-full bg-[#4AF8BA]   duration-300  text-[#032530]  cursor-pointer  font-semibold   " >
                                                 {status === 'Sending...' ? 'Submitting...' : 'Send message'}
                                             </button>
