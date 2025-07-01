@@ -103,7 +103,7 @@ const Header = () => {
               </div>
             </Link>
             <div className={`lg:hidden block  ${menuOpen ? "z-50" : ""}`}>
-                <Hamburger toggled={menuOpen} color={menuOpen ? "#032530" : "#fff"} direction='right' toggle={setMenuOpen} />
+              <Hamburger toggled={menuOpen} color={menuOpen ? "#032530" : "#fff"} direction='right' toggle={setMenuOpen} />
             </div>
           </div>
         </div>
@@ -153,13 +153,13 @@ const Header = () => {
                     // onMouseLeave={handleMouseLeave}
                     onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
                     onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}>
-                    <Link to={link.to} className={`py-2 flex lg:w-[144px]   w-full transition-all duration-300 ease-in-out lg:text-base md:text-sm justify-center items-center gap-2   font-semibold  lg:text-[#032530]   text-[#032530] ${isActive(link.to) || hoveredCategory === link.label ? 'md:border-t-0 duration-300 ' : ''} `}
+                    <Link to={link.to} className={`py-2 flex lg:w-[144px] w-full transition-all duration-300 ease-in-out lg:text-base md:text-sm justify-center items-center gap-2   font-semibold  lg:text-[#032530]   text-[#032530] ${isActive(link.to) || hoveredCategory === link.label ? 'md:border-t-0 duration-300 ' : ''} `}
                       onClick={(e) => { if (link.dropdown) { e.preventDefault(); setHoveredCategory((prev) => (prev === link.label ? null : link.label)); } else { setMenuOpen(false); } }}   >
                       {link.label}
                       {link.dropdown && (<i className={`fi fi-sr-angle-circle-down flex items-center  transition-all duration-300 ease-in-out  rounded-full   ${hoveredCategory === link.label ? '   rotate-180 duration-100' : ' '} `}></i>)}
                     </Link>
                     {hoveredCategory === link.label && link.dropdown && (
-                      <div className="lg:absolute left-0 top-full lg:w-[260px] w-full  bg-gradient-to-r from-[#032530] to-[#0A3B47]  rounded-xl transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top  grid md:grid-cols-1 md:p-3 z-10">
+                      <div className="lg:absolute left-0 top-full lg:w-[260px] w-full bg-gradient-to-r from-[#032530] to-[#0A3B47]  rounded-xl transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top  grid md:grid-cols-1 md:p-3 z-10">
                         {link.dropdown.map((dropdownlink) => (
                           <Link key={dropdownlink.to} to={dropdownlink.to} className="block md:px-4 px-4 py-2 text-white md:text-start text-center  " onClick={() => { setHoveredCategory(null); setMenuOpen(false); }} >
                             {dropdownlink.label}
