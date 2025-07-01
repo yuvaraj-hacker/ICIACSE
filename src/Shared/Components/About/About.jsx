@@ -47,7 +47,7 @@ function About() {
             </div>
           </div>
         </section>
-        <section className="  flex flex-col md:gap-7 gap-5">
+        <section className=" flex flex-col md:gap-7 gap-5">
           <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]">
             <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
               Conference Highlights
@@ -55,7 +55,7 @@ function About() {
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-[80rem] mx-auto  gap-6">
             {attendees.map((item, index) => (
-              <div key={index} className="bg-gradient-to-r from-[#032530]  to-[#0A3B47] hover:shadow-xl  flex justify-center items-center  shadow-md  md:p-10 p-3    transition-all duration-300"   >
+              <div key={index} className="bg-gradient-to-r from-[#032530] to-[#0A3B47] hover:shadow-xl flex justify-center items-center  shadow-md  md:p-10 p-3 transition-all duration-300"   >
                 {/* <div className="text-xl font-semibold text-[#2487DB] mb-2">•</div> */}
                 <p className="text-white   md:text-lg text-sm font-medium text-center">{item}</p>
               </div>
