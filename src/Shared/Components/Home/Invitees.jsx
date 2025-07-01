@@ -4,7 +4,7 @@ function Invitees({ Name, Position, location }) {
     return (
         <section className="   ">
             {/* Corner Cut Shape */}
-            <div className='    items-center gap-2 flex flex-col gap-4'  >
+            <div className=' items-center gap-2 flex flex-col gap-4'  >
                 <div className='md:p-5 p-3 bg-white style'>
                     <img rel='preload' src="/assets/images/homes.jpg" className='w-fit  mx-auto  ' alt="" />
                 </div>
