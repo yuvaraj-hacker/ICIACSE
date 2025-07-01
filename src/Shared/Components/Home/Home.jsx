@@ -157,12 +157,12 @@ export const Home = () => {
                 <div>
                 </div>
               </div>
-              <div className="grid lg:grid-cols-7 gap-5 md:items-start  items-center">
+              <div className="grid lg:grid-cols-7 gap-5 md:items-center  items-center">
                 <img src="/assets/images/abouts.jpg" className=" mx-auto   md:col-span-3" alt="" />
                 <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0  md:bg-white bg-[#032530]  md:p-0 p-4">
                   <div className=" flex lg:flex-col flex-row">
-                    <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[50px]" style={{ lineHeight: "1" }}>20</h1>
-                    <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[50px]" style={{ lineHeight: "1" }}>25</h1>
+                    <h1 className="h-fit w-fit m-0 p-0 font-bold xl:text-[70px] text-[50px]" style={{ lineHeight: "1" }}>2025</h1>
+                    {/* <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[50px]" style={{ lineHeight: "1" }}>25</h1> */}
                   </div>
                   <p className="m-0 p-0 md:text-2xl text-lg  font-bold">20 August</p>
                 </div>

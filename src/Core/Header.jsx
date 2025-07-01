@@ -156,7 +156,7 @@ const Header = () => {
                     <Link to={link.to} className={`py-2 flex lg:w-[144px] w-full transition-all duration-300 ease-in-out lg:text-base md:text-sm justify-center items-center gap-2   font-semibold  lg:text-[#032530]   text-[#032530] ${isActive(link.to) || hoveredCategory === link.label ? 'md:border-t-0 duration-300 ' : ''} `}
                       onClick={(e) => { if (link.dropdown) { e.preventDefault(); setHoveredCategory((prev) => (prev === link.label ? null : link.label)); } else { setMenuOpen(false); } }}   >
                       {link.label}
-                      {link.dropdown && (<i className={`fi fi-ss-down flex items-center  transition-all duration-300 ease-in-out  rounded-full ${hoveredCategory === link.label ? '   rotate-180 duration-100' : ' '} `}></i>)}
+                      {link.dropdown && (<i className={`fi fi-rs-angle-small-down text-lg flex items-center  transition-all text-[#032530] font-bold  duration-300 ease-in-out  rounded-full ${hoveredCategory === link.label ? '   rotate-180 duration-100' : ' '} `}></i>)}
                     </Link>
                     {hoveredCategory === link.label && link.dropdown && (
                       <>
