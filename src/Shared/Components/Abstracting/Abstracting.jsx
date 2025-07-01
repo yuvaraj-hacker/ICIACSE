@@ -111,7 +111,7 @@ function Abstracting() {
                             <div className="grid grid-cols-1 md:grid-cols-1 gap-6 ">
                                 {/* Submission Guidelines */}
                                 <div className=" ">
-                                    <h1 className=" w-fit mb-4   rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA]   p-1">
+                                    <h1 className=" w-fit mb-4   rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA] mx-auto md:mx-0   p-1">
                                         <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
                                             Submission Guidelines
                                         </span>                                    </h1>
@@ -147,7 +147,7 @@ function Abstracting() {
                                 </div>
                                 {/* Important Notes */}
                                 <div className="">
-                                    <h1 className="  w-fit mb-4  rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA]  ">
+                                    <h1 className="  w-fit mb-4  rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA]  mx-auto md:mx-0 ">
                                         <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
                                             Important Notes
                                         </span>
@@ -171,7 +171,7 @@ function Abstracting() {
                             <section className=''>
                                 <div className="  w-full mx-auto col-span-2 ">
                                     <div className=" :bg-gray-900   ">
-                                        <div className=" mx-auto max-w-screen-xl  bg-gradient-to-tr shadow-xl  rounded-xl  from-[#032530] to-[#0A3B47]  md:p-6   p-3 ">
+                                        <div className=" mx-auto max-w-screen-xl  bg-gradient-to-tr shadow-xl     from-[#032530] to-[#0A3B47]  md:p-6   p-3 ">
                                             <form className="w-full  text-white  grid lg:grid-cols-2 grid-cols-1 md:gap-5" ngNativeValidate onSubmit={handleSubmit}>
                                                 <div className=' '>
                                                     <label for="paperTitle" className="block mb-2 text-sm text-white mt-4 ">
