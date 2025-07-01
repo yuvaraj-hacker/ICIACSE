@@ -216,21 +216,20 @@ function Abstracting() {
                                                         required
                                                         className="shadow-sm bg-white border      border-gray-200 p-2.5 text-black text-sm focus:ring-primary-500 focus:border-primary-500 block w-full   mt-4"                                                >
                                                         <option value="">Select Track</option>
-                                                        <option value="TechForDevelopment">Technology for Sustainable Development</option>
-                                                        <option value="SmartInfrastructure">Smart Infrastructure and Urban Innovation</option>
-                                                        <option value="AI4Good">Artificial Intelligence for Social Impact</option>
-                                                        <option value="DigitalHealth">Digital Health and Telemedicine</option>
-                                                        <option value="EdTech">Technology in Education and Learning</option>
-                                                        <option value="GreenTech">Green Technologies and Renewable Energy</option>
-                                                        <option value="IoTandSensors">IoT and Remote Sensing for Development</option>
-                                                        <option value="Data4Development">Big Data and Data-Driven Governance</option>
-                                                        <option value="CyberPolicy">Cybersecurity, Ethics, and Digital Policy</option>
-                                                        <option value="Automation4Industry">Automation, Robotics, and Industry 4.0</option>
-                                                        <option value="BlockchainTransparency">Blockchain for Transparency and Aid Management</option>
-                                                        <option value="AIinAgriculture">AI and Smart Technologies in Agriculture</option>
-                                                        <option value="ClimateTech">Climate Tech and Environmental Monitoring</option>
-                                                        <option value="SmartCommunities">Smart Villages and Connected Communities</option>
-
+                                                        <option value="AdvancedAlgorithms">Advanced Algorithms and Data Structures</option>
+                                                        <option value="AIandML">Artificial Intelligence and Machine Learning</option>
+                                                        <option value="CloudEdgeComputing">Cloud and Edge Computing</option>
+                                                        <option value="BigDataAnalytics">Big Data Analytics and Data Science</option>
+                                                        <option value="SoftwareEngineering">Software Architecture and Engineering Practices</option>
+                                                        <option value="Cybersecurity">Cybersecurity and Privacy</option>
+                                                        <option value="IoTandEmbedded">Internet of Things (IoT) and Embedded Systems</option>
+                                                        <option value="Blockchain">Blockchain and Decentralized Applications</option>
+                                                        <option value="HCIandUX">Human-Computer Interaction and UX Design</option>
+                                                        <option value="AgileDevOps">Agile Development and DevOps</option>
+                                                        <option value="QuantumComputing">Quantum Computing and Simulation</option>
+                                                        <option value="HighPerformance">High-Performance and Parallel Computing</option>
+                                                        <option value="SoftwareTesting">Software Testing and Quality Assurance</option>
+                                                        <option value="SmartApplications">Smart Applications and Intelligent Systems</option>
                                                     </select>
                                                 </div>
                                                 <div className="md:col-span-2 mt-5">
