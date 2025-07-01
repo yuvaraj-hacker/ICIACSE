@@ -27,16 +27,17 @@ function About() {
               <div>
               </div>
             </div>
-            <div className="grid lg:grid-cols-7   gap-5 items-start">
-              <img src="/assets/images/abouts.jpg" className=" mx-auto   col-span-3" alt="" />
-              <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0  ">
+            <div className="grid lg:grid-cols-7   gap-5 md:items-center  items-center">
+              <img src="/assets/images/abouts.jpg" className=" mx-auto   md:col-span-3" alt="" />
+              <div className="mx-auto text-center leading-none text-[#4AF8BA] flex lg:flex-col flex-row items-center gap-4 lg:gap-0 md:bg-white bg-[#032530]  md:p-0 p-4 ">
                 <div className=" flex lg:flex-col flex-row">
-                  <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[60px]" style={{ lineHeight: "1" }}>20</h1>
-                  <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[60px]" style={{ lineHeight: "1" }}>25</h1>
+                  {/* <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px] text-[60px]" style={{ lineHeight: "1" }}>20</h1> */}
+                  <h1 className="h-fit w-fit m-0 p-0 font-bold xl:text-[70px] text-[40px]" style={{ lineHeight: "1" }}>2025</h1>
+                  {/* <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[60px]" style={{ lineHeight: "1" }}>25</h1> */}
                 </div>
                 <p className="m-0 p-0 md:text-2xl text-xl  font-bold">20 August</p>
               </div>
-              <div className="col-span-3">
+              <div className="md:col-span-3">
                 <div className=" flex flex-col gap-3 ">
                   <p className="text-justify md:text-lg text-sm leading-7">
                     The International Conference on Innovations in Advanced Computing and Software Engineering (ICIACSE) is a prestigious interdisciplinary platform focused on driving innovation in computing and software engineering. This conference brings together researchers, industry professionals, academicians, and thought leaders from around the world to share insights, explore cutting-edge technologies, and collaborate on solutions that address complex challenges in the digital era. ICIACSE aims to foster sustainable technological advancement and promote impactful research across diverse domains.

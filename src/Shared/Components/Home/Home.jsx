@@ -176,12 +176,7 @@ export const Home = () => {
                       <Link to="/about">
                         <button className="font-semibold z-10  text-white md:text-base text-sm relative bg-[#032530]   group   overflow-hidden cursor-pointer  px-6 py-2 md:py-3 " >
                           Read More
-                          <span
-                            style={{
-                              clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)'
-                            }}
-                            className="absolute  -top-1 bottom-0 right-0 left-0 bg-gradient-to-tr from-[#32e6aa]    to-[#0ae8d4] transform -translate-x-[100%] group-hover:-translate-x-1 w-[200px] transition-transform duration-500 ease-in-out -z-10"
-                          ></span>
+                          <span style={{ clipPath: 'polygon(0 0, 86% 0, 100% 100%, 0% 100%)' }} className="absolute  -top-1 -bottom-1 right-0 left-0 bg-gradient-to-tr from-[#32e6aa]    to-[#0ae8d4] transform -translate-x-[100%] group-hover:-translate-x-1 w-[200px] transition-transform duration-500 ease-in-out -z-10"  ></span>
                         </button>
                       </Link>
                     </div>
