@@ -221,7 +221,7 @@ export const Home = () => {
               Key Dates
             </h1>
             <div className=" ">
-              <hr className='bg-[#4AF8BA] h-1 border-0 relative top-20 lg:block hidden ' />
+              <hr className='bg-[#4AF8BA] h-1 border-0 relative top-24 lg:block hidden ' />
               <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-5  ">
                 {date.map((item, index) => (
                   <>
