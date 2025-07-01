@@ -10,8 +10,10 @@ function Publication() {
             <section className="flex flex-col md:gap-10 gap-5   md:pt-22 pt-19  max-w-[80rem] py-5 md:py-10  mx-auto 2xl:px-0 px-3">
                 <div className=''>
                     <div className='flex items-center md:mb-5 mb-3 gap-4  text-center  mx-auto justify-center text-[#014BBD]'>
-                        <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                            Key Dates
+                        <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA] p-1">
+                            <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                                Key Dates
+                            </span>
                         </h1>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
@@ -57,8 +59,10 @@ function Publication() {
                 </div>
                 <div className=''>
                     <div className='flex items-center gap-3 md:mb-5 mb-3 justify-center text-[#014BBD]'>
-                        <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                            Registration Details
+                        <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]">
+                            <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                                Registration Details
+                            </span>
                         </h1>
                     </div>
                     <div className="max-w-[80rem] mx-auto bg-gradient-to-tr from-[#032530] to-[#0A3B47]  rounded-xl  shadow-xl md:p-6 p-3">

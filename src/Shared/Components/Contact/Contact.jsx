@@ -57,8 +57,10 @@ function Contact() {
                         <div className="lg:max-w-3xl max-w-xl w-full mx-auto ">
                             <div className="  :bg-gray-900 lg:px-20 md:px-5 ">
                                 <div className=' text-center mx-auto flex justify-center md:mb-5 mb-3 '>
-                                    <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                                        Contact Us
+                                    <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA] p-1">
+                                        <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                                            Contact Us
+                                        </span>
                                     </h1>
                                 </div>
                                 <div className="mx-auto max-w-screen-md relative">

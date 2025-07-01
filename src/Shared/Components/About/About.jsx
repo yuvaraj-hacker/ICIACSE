@@ -19,8 +19,10 @@ function About() {
         <section className="grid md:grid-cols-1 grid-cols-1 md:gap-5 gap-3 items-start">
           <div className='flex flex-col md:gap-7 gap-3'>
             <div>
-              <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                About Us
+              <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA] p-1">
+                <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                  About
+                </span>
               </h1>
               <div>
               </div>
@@ -45,8 +47,10 @@ function About() {
           </div>
         </section>
         <section className="  flex flex-col md:gap-7 gap-5">
-          <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-            Conference Highlights
+          <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]">
+            <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+              Conference Highlights
+            </span>
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-[80rem] mx-auto  gap-6">
             {attendees.map((item, index) => (
@@ -59,13 +63,15 @@ function About() {
         </section>
         <section className="">
           <div className="mx-auto text-justify  space-y-4 text-sm md:text-base leading-7">
-            <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-              Vision
+            <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]">
+              <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                Vision
+              </span>
             </h1>
             <p className='leading-7 md:text-lg text-sm'>
               The International Conference on Innovations in Advanced Computing and Software Engineering (ICIACSE) aspires to become a leading global forum that inspires innovation and drives transformative change in the realms of computing and software systems. Our vision is to:            </p>
             <div className="px-4">
-                <ul className="list-disc flex flex-col gap-2 text-justify md:text-base text-sm">
+              <ul className="list-disc flex flex-col gap-2 text-justify md:text-base text-sm">
                 <li>
                   Advance the frontiers of computing and software engineering by promoting
                   high-quality research, innovation, and application-driven development.

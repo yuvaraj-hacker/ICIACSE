@@ -9,8 +9,10 @@ function PeerReview() {
             {/* <Other Title="Conference Tracks" /> */}
             <section className="flex flex-col md:gap-5 gap-3 max-w-[80rem] py-5 md:py-10  md:pt-22 pt-19  mx-auto 2xl:px-0 px-3">
                 {/* <h2 className="md:text-2xl text-xl font-bold  md:mb-2">📌 Why These Tracks Matter</h2> */}
-                <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                    Conference Tracks
+                <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA] p-1">
+                    <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                        Conference Tracks
+                    </span>
                 </h1>
                 <p className="md:text-lg text-sm   leading-relaxed">
                     In today’s digital era, innovations in advanced computing and software engineering are revolutionizing the way we solve real-world problems and build a smarter, more sustainable future. The <span className='font-semibold'>International Conference on Innovations in Advanced Computing and Software Engineering (ICIACSE)</span>  features meticulously curated tracks that address the most significant and emerging areas in the field.
@@ -18,7 +20,7 @@ function PeerReview() {
                     These tracks are designed to encourage cutting-edge research, practical applications, and interdisciplinary collaboration. Whether you're a researcher, academician, industry professional, startup innovator, or student, ICIACSE provides a platform to present ideas, learn from experts, and engage with a global community of technology leaders.
                 </p>
                 <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-6   max-w-[80rem] mx-auto">
-                    {[
+                     {[
 
                         {
                             title: "Artificial Intelligence and Data Science",

@@ -76,8 +76,10 @@ function Abstracting() {
                 <div className="lg:flex md:flex  gap-8">
                     <div className="max-w-[90rem] mx-auto w-full">
                         <div className='md:mb-5 mb-3 flex justify-center items-center gap-3'>
-                            <h1 className="text-center w-fit mx-auto rounded-full font-bold lg:text-3xl text-xl  underline underline-offset-8 decoration-[#4AF8BA] bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                                New Paper Submission
+                            <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA] p-1">
+                                <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                                    New Paper Submission
+                                </span>
                             </h1>
                         </div>
                         <div className='grid lg:grid-cols-2 md:gap-4  gap-4  items-center'>
@@ -109,9 +111,10 @@ function Abstracting() {
                             <div className="grid grid-cols-1 md:grid-cols-1 gap-6 ">
                                 {/* Submission Guidelines */}
                                 <div className=" ">
-                                    <h1 className=" w-fit mb-4   rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                                        Submission Guidelines
-                                    </h1>
+                                    <h1 className=" w-fit mb-4   rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA]   p-1">
+                                        <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                                            Submission Guidelines
+                                        </span>                                    </h1>
                                     <ul className="space-y-3 md:text-base text-sm text-gray-700 border-b-4 border-2 p-5 border-[#0A3B47] rounded-xl">
                                         <li className="flex items-start gap-2">
                                             <span className=" ">•</span> Original and unpublished research papers only
@@ -144,8 +147,10 @@ function Abstracting() {
                                 </div>
                                 {/* Important Notes */}
                                 <div className="">
-                                    <h1 className="  w-fit mb-4  rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA]   bg-gradient-to-r p-1 from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
-                                        Important Notes
+                                    <h1 className="  w-fit mb-4  rounded-full font-bold lg:text-3xl text-lg  underline underline-offset-8 decoration-[#4AF8BA]  ">
+                                        <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
+                                            Important Notes
+                                        </span>
                                     </h1>
                                     <ul className="space-y-3 md:text-base text-sm text-gray-700  border-b-4 border-2 p-5 border-[#0A3B47] rounded-xl">
                                         <li className="flex items-start gap-2">
