@@ -102,11 +102,11 @@ export const Home = () => {
                 </div>
                 <div className="relative">
                   <div className="flex justify-center items-center lg:px-0 px-2 ">
-                    <img src="/assets/images/Hero-section.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:ml-auto mr-auto md:w-96 md:h-96 w-60 h-60  absolute p-5 lg:right-0 lg:left-auto    " />
-                    <img src="/assets/images/outline.png" alt="Conference" rel="preload" className=" lg:block hidden z-30 lg:ml-auto lg:mr-0   w-96 h-96  animate-oscillate" />
-                    <img src="/assets/images/second-one.png" alt="Conference" rel="preload" className=" lg:hidden block z-30 lg:ml-auto lg:mr-0    md:w-96 md:h-96 w-60 h-60 animate-oscillate" />
-                    <img src="/assets/images/side.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:block hidden  lg:ml-auto mr-auto w-24 h-24 absolute top-0  lg:right-auto     " />
-                    <img src="/assets/images/sidene.jpg" alt="Conference" rel="preload" className=" rounded-full lg:block hidden  z-30 lg:ml-auto mx-0 w-24 h-24 absolute bottom-24   -right-5  " />
+                    <img src="/assets/images/Hero-section.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:ml-auto mr-auto md:w-96 md:h-96 w-60 h-60 absolute p-5 lg:right-0 lg:left-auto    " />
+                    <img src="/assets/images/outline.png" alt="Conference" rel="preload" className=" lg:block hidden z-30 lg:ml-auto lg:mr-0 w-96 h-96 animate-oscillate" />
+                    <img src="/assets/images/second-one.png" alt="Conference" rel="preload" className=" lg:hidden block z-30 lg:ml-auto lg:mr-0 md:w-96 md:h-96 w-60 h-60 animate-oscillate" />
+                    <img src="/assets/images/side.jpg" alt="Conference" rel="preload" className=" rounded-full z-30 lg:block hidden lg:ml-auto mr-auto w-24 h-24 absolute top-0  lg:right-auto     " />
+                    <img src="/assets/images/sidene.jpg" alt="Conference" rel="preload" className="rounded-full lg:block hidden z-30 lg:ml-auto mx-0 w-24 h-24 absolute bottom-24   -right-5  " />
                   </div>
                 </div>
               </div>
