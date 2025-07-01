@@ -138,7 +138,7 @@ export const Home = () => {
           <section className="grid md:grid-cols-1 grid-cols-1 md:gap-5 gap-3 items-start">
             <div className='flex flex-col md:gap-7 gap-3'>
               <div>
-                <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]">
+                <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8   decoration-[#4AF8BA]">
                   <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
                     About Us
                   </span>
