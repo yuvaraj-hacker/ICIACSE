@@ -97,7 +97,7 @@ const Header = () => {
         <div className="max-w-[80rem] mx-auto md:px-5 px-3 md:py-0 py-2  bg-gradient-to-r from-[#032530] to-[#0A3B47]  ">
           <div className="flex items-center justify-between lg:gap-0  gap-5  ">
             <Link to='/'>
-              <div className="lg:hidden block   ">
+              <div className="lg:hidden block">
                 <img className='w-32 h-12 object-contain ' src="/assets/images/ICIACSE LOGO.png" alt="" />
                 {/* <div className="   lg:hidden  block  text-white font-bold">ICIACSE</div> */}
               </div>
