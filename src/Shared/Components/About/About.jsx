@@ -35,7 +35,7 @@ function About() {
                   <h1 className="h-fit w-fit m-0 p-0 font-bold xl:text-[70px] text-[40px]" style={{ lineHeight: "1" }}>2025</h1>
                   {/* <h1 className="h-fit w-fit m-0 p-0 font-bold md:text-[120px]  text-[60px]" style={{ lineHeight: "1" }}>25</h1> */}
                 </div>
-                <p className="m-0 p-0 md:text-2xl text-xl  font-bold">20 August</p>
+                <p className="m-0 p-0 md:text-xl text-xl  font-bold">3<sup>rd</sup> September</p>
               </div>
               <div className="md:col-span-3">
                 <div className=" flex flex-col gap-3 ">

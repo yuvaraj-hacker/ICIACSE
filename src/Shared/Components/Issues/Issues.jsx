@@ -5,7 +5,7 @@ import Other from '../Other/Other';
 function Issues({ }) {
     const Tech = [
         { Name: 'Dr. K. Ramesh', position: ' V.R.S. College of Engineering and Technology', location: ' India' },
-        { Name: 'Dr. Nandhini Daruvuri', position: 'IoTG Research and Development lab', location: ' USA' },
+        { Name: 'Dr. Nandhini Daruvuri', position: 'IoT Research and Development Lab', location: ' USA' },
         { Name: 'Dr. R. Veerandrakumar', position: ' Panimalar Engineering College', location: 'India' },
         { Name: 'Dr. Muhammad Asif Khan', position: 'Qatar University', location: 'Qatar' },
         { Name: 'Dr. Haruna Abdu', position: ' Federal University Lokoja', location: ' Nigeria' },
@@ -13,11 +13,11 @@ function Issues({ }) {
         { Name: 'Dr. Comfort O. Folorunso', position: 'University of Lagos', location: ' Nigeria' },
         { Name: 'Dr. Rustam Asnawi', position: 'Universitas Negeri Yogyakarta', location: 'Indonesia' },
         { Name: 'Dr. Asef Shahriar', position: 'Khulna University of Engineering & Technology', location: 'Bangladesh' },
-        { Name: 'Dr. C.T. Ikwuazom', position: ' Federal University of Technology Minna', location: 'Nigeria' },
+        { Name: 'Dr. C. T. Ikwuazom', position: ' Federal University of Technology Minna', location: 'Nigeria' },
         { Name: 'Dr. Ankit Sharma', position: ' Nirma University', location: 'India' },
         { Name: 'Dr. Oladayo Atanda', position: ' Bowen University', location: 'Nigeria' },
         { Name: 'Dr. Meenakshi Gupta', position: ' National University of Singapore', location: 'Singapore' },
-        { Name: 'Dr. Noureddine SEDDARI', position: 'Skikda University', location: 'Algeria' },
+        { Name: 'Dr. Noureddine Seddari', position: 'Skikda University', location: 'Algeria' },
         { Name: 'Dr. Khushbu Doulani', position: ' IIIT Lucknow', location: 'India' },
         { Name: 'Dr. Putri Mentari Endraswari', position: 'University of Bangka Belitung', location: 'Indonesia' },
         { Name: 'Dr. Theresa Omodunbi', position: 'Obafemi Awolowo University', location: 'Nigeria' },
