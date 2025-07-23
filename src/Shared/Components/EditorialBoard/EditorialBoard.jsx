@@ -49,7 +49,7 @@ function EditorialBoard({ position, Name, location }) {
                             <strong>• Logistics Coordinator:</strong> Oversees venue arrangements, registration management, scheduling, and on-site operations.
                         </span>
 
-                        <br /><br />
+                        <br /> 
                         Together, the committee ensures efficient planning, smooth operations, and a valuable academic experience for all attendees and contributors.
                     </p>
                 </div>

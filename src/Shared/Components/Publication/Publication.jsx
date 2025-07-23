@@ -44,7 +44,7 @@ function Publication() {
                             },
                             {
                                 date: "26-08-2025",
-                                event: "Last Date for Registration / Payment",
+                                event: "Last Date for Registration",
                             },
                         ].map((item, index) => (
                             <div key={index} className="  relative  justify-center w-full h-full flex items-center     shadow-md p-5 bg-gradient-to-r from-[#032530] to-[#0A3B47]"  >

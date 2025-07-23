@@ -79,7 +79,7 @@ export const Home = () => {
     { Dates: '05-08-2025', Title: 'Deadline for Submitting Revised Full Paper' },
     { Dates: '12-08-2025', Title: 'Notification of Acceptance' },
     { Dates: '19-08-2025', Title: 'Camera-Ready Paper Submission' },
-    { Dates: '26-08-2025', Title: 'Last Date for Registration / Payment' },
+    { Dates: '26-08-2025', Title: 'Last Date for Registration' },
   ];
 
   return (

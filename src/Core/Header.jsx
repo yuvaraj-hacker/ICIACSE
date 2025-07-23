@@ -53,7 +53,7 @@ const Header = () => {
         },
         {
           to: "/key-dates",
-          label: "Key Dates & Registration Details",
+          label: "Key Dates",
         },
         // {
         //   to: "/key-dates",

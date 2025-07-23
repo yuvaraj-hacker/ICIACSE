@@ -16,7 +16,7 @@ function LastSection() {
                                     </div>
                                     <div className="md:text-2xl text-sm text-white" >
                                         {/* <p>International Convention Center</p> */}
-                                        <p>Beijing, China</p>
+                                        <p>Bangalore, India</p>
                                     </div>
                                 </div>
                                 <div className="text-center flex p-10 flex-col  items-center md:gap-4 gap-2 mx-auto border-2 border-[#4AF8BA] bg-gradient-to-r from-[#032530] to-[#0A3B47]  ">
@@ -24,7 +24,7 @@ function LastSection() {
                                         <i className="fi fi-rr-clock text-white flex items-center text-2xl md:text-5xl " />
                                     </div>
                                     <div className="md:text-2xl text-sm text-white">
-                                        <p>September 26-27, 2025</p>
+                                        <p> 3<sup>rd</sup> September , 2025</p>
                                         <p>9:00 AM - 6:00 PM</p>
                                     </div>
                                 </div>
