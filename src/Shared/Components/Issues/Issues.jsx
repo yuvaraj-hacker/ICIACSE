@@ -22,11 +22,11 @@ function Issues({ }) {
         { Name: 'Dr. Putri Mentari Endraswari', position: 'University of Bangka Belitung', location: 'Indonesia' },
         { Name: 'Dr. Theresa Omodunbi', position: 'Obafemi Awolowo University', location: 'Nigeria' },
         { Name: 'Dr. Chandan Jyoti Kumar', position: 'Cotton University', location: 'India' },
-        { Name: 'Dr. Fengliang Zhao', position: ' Shandong University', location: 'China' },
+        { Name: 'Dr. Fengliang Zhao', position: 'Shandong University', location: 'China' },
         { Name: 'Dr. Chhavi Dhiman', position: 'Delhi Technological University', location: 'India' },
-        { Name: 'Dr. Yijun Wang', position: ' Shandong University', location: 'China' },
+        { Name: 'Dr. Yijun Wang', position: 'Shandong University', location: 'China' },
         { Name: 'Dr. Satyabrata Roy', position: 'Manipal University Jaipur', location: 'India' },
-        { Name: 'Dr. V. Pravenea', position: ' Dr.N.G.P Institute of Technology', location: ' India' },
+        { Name: 'Dr. V. Pravenea', position: ' Dr.N.G.P Institute of Technology', location: 'India' },
         { Name: 'Dr. Chen Li', position: 'Hangzhou TCM Hospital', location: 'China' },
 
     ];
