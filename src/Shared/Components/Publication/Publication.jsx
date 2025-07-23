@@ -17,9 +17,9 @@ function Publication() {
                         </h1>
 
                     </div>
-                       <p className="mb-5 md:text-lg">Timely participation is crucial for ensuring a smooth and successful conference experience. Please take note of the important dates outlined below, which include deadlines for paper submissions, acceptance notifications, registration, and the official conference schedule. Adhering to these key milestones will help participants, authors, and attendees stay informed and prepared throughout the various stages of the conference. We encourage all contributors to mark their calendars and complete the necessary steps promptly to ensure inclusion in the final program and proceedings.
+                    <p className="mb-5 md:text-lg">Timely participation is crucial for ensuring a smooth and successful conference experience. Please take note of the important dates outlined below, which include deadlines for paper submissions, acceptance notifications, registration, and the official conference schedule. Adhering to these key milestones will help participants, authors, and attendees stay informed and prepared throughout the various stages of the conference. We encourage all contributors to mark their calendars and complete the necessary steps promptly to ensure inclusion in the final program and proceedings.
 
-                        </p>
+                    </p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
                         {[
                             {
