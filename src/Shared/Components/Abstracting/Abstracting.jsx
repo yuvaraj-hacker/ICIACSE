@@ -82,7 +82,7 @@ function Abstracting() {
                                 </span>
                             </h1>
                         </div>
-                        <div className='grid lg:grid-cols-2 md:gap-4  gap-4  items-center'>
+                        <div className='grid lg:grid-cols-2 md:gap-4 gap-4 items-center'>
                             {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6  mx-auto  ">
                                 <div className="bg-white md:p-5 p-3 ">
                                     <h3 className="text-lg md:text-xl font-semibold   mb-3">Submission Guidelines</h3>

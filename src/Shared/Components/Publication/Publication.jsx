@@ -15,7 +15,11 @@ function Publication() {
                                 Key Dates
                             </span>
                         </h1>
+
                     </div>
+                       <p className="mb-5 md:text-lg">Timely participation is crucial for ensuring a smooth and successful conference experience. Please take note of the important dates outlined below, which include deadlines for paper submissions, acceptance notifications, registration, and the official conference schedule. Adhering to these key milestones will help participants, authors, and attendees stay informed and prepared throughout the various stages of the conference. We encourage all contributors to mark their calendars and complete the necessary steps promptly to ensure inclusion in the final program and proceedings.
+
+                        </p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
                         {[
                             {
@@ -57,7 +61,7 @@ function Publication() {
                         ))}
                     </div>
                 </div>
-                <div className=''>
+                {/* <div className=''>
                     <div className='flex items-center gap-3 md:mb-5 mb-3 justify-center text-[#014BBD]'>
                         <h1 className="text-center w-fit mx-auto font-bold lg:text-3xl text-xl underline underline-offset-8 decoration-[#4AF8BA]">
                             <span className="bg-gradient-to-r from-[#032530] to-[#0A3B47] bg-clip-text text-transparent">
@@ -84,8 +88,7 @@ function Publication() {
                                     </div>
                                 ))}
                             </div>
-                            {/* Payment Instructions */}
-                            <div className="bg-white p-6   shadow-md  " >
+                             <div className="bg-white p-6   shadow-md  " >
                                 <h3 className="text-xl font-semibold   mb-4 border-b border-b-[#4AF8BA] pb-2">
                                     Payment Instructions
                                 </h3>
@@ -109,7 +112,7 @@ function Publication() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             <LastSection />
 

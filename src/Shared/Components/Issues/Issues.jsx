@@ -39,12 +39,15 @@ function Issues({ }) {
                         Board of Editors
                     </span>
                 </h1>
+                <p className="text-gray-700 text-lg leading-relaxed text-justify">
+                    The Board of Editors for the International Conference on Innovations in Advanced Computing and Software Engineering comprises a distinguished panel of experts, academicians, and industry leaders from diverse domains within computer science and software engineering. Their primary responsibility is to oversee the peer review process, uphold publication ethics, and ensure the scholarly quality of all accepted manuscripts. By offering their technical insights and editorial guidance, the board plays a critical role in maintaining the academic integrity and global relevance of the conference proceedings. Their contributions help foster a platform that promotes rigorous research, encourages innovative solutions, and supports knowledge dissemination across the global computing community.
+                </p>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-10 gap-5">
                     {Tech.map((member, index) => (
- 
-                            <Edit key={index} position={member.position} Name={member.Name} location={member.location} />
-                    
-                        ))}
+
+                        <Edit key={index} position={member.position} Name={member.Name} location={member.location} />
+
+                    ))}
                 </div>
             </section>
             <LastSection />

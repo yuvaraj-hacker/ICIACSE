@@ -201,13 +201,19 @@ export const Home = () => {
         <section className=" bg-gradient-to-r from-[#032530] to-[#0A3B47]  w-full">
           <div className="mx-auto flex flex-col md:gap-10 gap-3 max-w-[90rem]  md:py-10 py-5    md:px-5 px-3 "   >
             <h1 className="text-center w-fit mx-auto rounded-full font-semibold lg:text-3xl text-xl   text-white underline underline-offset-8 decoration-[#4AF8BA] ">
-              Key Invitees
+              Our Mission
             </h1>
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 md:gap-10 gap-8 pb-1">
+            <p className="text-white text-lg leading-relaxed text-justify">
+              Our mission is to foster a global platform that promotes the exchange of innovative ideas, cutting-edge research, and emerging trends in the fields of advanced computing and software engineering. The International Conference on Innovations in Advanced Computing and Software Engineering aims to connect researchers, industry experts, educators, and students to collaborate on solving real-world challenges through technological advancements. We are committed to supporting interdisciplinary research, encouraging innovation-driven discussions, and contributing to the growth of a knowledge-driven society that thrives on digital transformation, software excellence, and computational intelligence.
+            </p>
+            <p className="text-white text-lg leading-relaxed text-justify ">
+              Through this mission, we seek to inspire the next generation of innovators, support open knowledge-sharing, and build a collaborative ecosystem that transcends borders. By bringing together diverse voices and fostering inclusive participation, the conference encourages impactful dialogue that shapes the future of software engineering, smart systems, and intelligent technologies for the betterment of society and global development.
+            </p>
+            {/* <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 md:gap-10 gap-8 pb-1">
               {invitees.map((member, index) => (
                 <Invitees key={index} Name={member.Name} Position={member.Position} location={member.location} dataAos="flip-left" />
               ))}
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="  max-w-[90rem]  mx-auto md:px-5 px-3  md:py-10 py-5 mb-1 ">
