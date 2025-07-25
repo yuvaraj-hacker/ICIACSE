@@ -94,7 +94,7 @@ const Header = () => {
   return (
     <>
       <section className=" bg-gradient-to-r from-[#032530] to-[#0A3B47]">
-        <div className="max-w-[80rem] mx-auto md:px-5 px-3 md:py-0 py-2 bg-gradient-to-r from-[#032530] to-[#0A3B47] ">
+        <div className="max-w-[80rem] mx-auto md:px-5 px-3 md:py-1 py-2 bg-gradient-to-r from-[#032530] to-[#0A3B47] ">
           <div className="flex items-center justify-between lg:gap-0  gap-5  ">
             <Link to='/'>
               <div className="lg:hidden block">
@@ -140,9 +140,9 @@ const Header = () => {
       </div> */}
       <section className={` fixed top-0 right-0 h-full w-64 z-40 py-3  ${!isHome ? "bg-gradient-header  " : ""}  ${scrolled ? "bg-gradient-header" : " "} ${menuOpen ? "translate-x-0 duration-300 bg-white" : "translate-x-full duration-300"} lg:block lg:relative lg:w-auto lg:translate-x-0`} >
         <header className="max-w-[90rem] mx-auto md:px-5 px-2 h-full   w-full">
-          <div className="lg:flex lg:justify-between justify-center items-center ">
+          <div className="lg:flex lg:justify-between justify-center items-center px-2 py-1">
             <Link to='/'>
-              <img className='lg:w-40 w-40 md:block hidden h-10 ' src="/assets/images/ICIACSE LOGO.png" alt="" />
+              <img className='lg:w-40 w-40 md:block hidden h-10 ' src="/assets/images/ICIACSE LOGO.png" alt="LOGO" />
               {/* <div className="lg:block hidden  text-white  font-bold text-3xl">ICIACSE</div> */}
             </Link>
             <nav ref={dropdownRef}>
