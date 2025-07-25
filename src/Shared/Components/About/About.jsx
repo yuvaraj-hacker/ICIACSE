@@ -40,7 +40,7 @@ function About() {
               <div className="md:col-span-3">
                 <div className=" flex flex-col gap-3 ">
                   <p className="text-justify md:text-lg text-sm leading-7">
-                    The International Conference on Innovations in Advanced Computing and Software Engineering (ICIACSE) is a prestigious interdisciplinary platform focused on driving innovation in computing and software engineering. This conference brings together researchers, industry professionals, academicians, and thought leaders from around the world to share insights, explore cutting-edge technologies, and collaborate on solutions that address complex challenges in the digital era. ICIACSE aims to foster sustainable technological advancement and promote impactful research across diverse domains.
+                    The International Conference on Innovations in Advanced Computing and Software Engineering is a prestigious interdisciplinary platform focused on driving innovation in computing and software engineering. This conference brings together researchers, industry professionals, academicians, and thought leaders from around the world to share insights, explore cutting-edge technologies, and collaborate on solutions that address complex challenges in the digital era. ICIACSE aims to foster sustainable technological advancement and promote impactful research across diverse domains.
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ function About() {
               </span>
             </h1>
             <p className='leading-7 md:text-lg text-sm'>
-              The International Conference on Innovations in Advanced Computing and Software Engineering (ICIACSE) aspires to become a leading global forum that inspires innovation and drives transformative change in the realms of computing and software systems. Our vision is to:            </p>
+              The International Conference on Innovations in Advanced Computing and Software Engineering aspires to become a leading global forum that inspires innovation and drives transformative change in the realms of computing and software systems. Our vision is to:            </p>
             <div className="px-4">
               <ul className="list-disc flex flex-col gap-2 text-justify md:text-base text-sm">
                 <li>

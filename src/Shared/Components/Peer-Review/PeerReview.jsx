@@ -15,7 +15,7 @@ function PeerReview() {
                     </span>
                 </h1>
                 <p className="md:text-lg text-sm   leading-relaxed">
-                    In today’s digital era, innovations in advanced computing and software engineering are revolutionizing the way we solve real-world problems and build a smarter, more sustainable future. The <span className='font-semibold'>International Conference on Innovations in Advanced Computing and Software Engineering (ICIACSE)</span>  features meticulously curated tracks that address the most significant and emerging areas in the field.
+                    In today’s digital era, innovations in advanced computing and software engineering are revolutionizing the way we solve real-world problems and build a smarter, more sustainable future. The <span className='font-semibold'>International Conference on Innovations in Advanced Computing and Software Engineering </span>  features meticulously curated tracks that address the most significant and emerging areas in the field.
 
                     These tracks are designed to encourage cutting-edge research, practical applications, and interdisciplinary collaboration. Whether you're a researcher, academician, industry professional, startup innovator, or student, ICIACSE provides a platform to present ideas, learn from experts, and engage with a global community of technology leaders.
                 </p>
