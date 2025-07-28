@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 import { toast } from "react-toastify";
 
 export const Home = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", number: "", message: "" });
+  const [formData, setFormData] = useState({ firstname: "", email: "", number: "", message: "" });
   const [status, setStatus] = useState('');
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -19,11 +19,11 @@ export const Home = () => {
     setStatus('Sending...');
     try {
       const formDataToSend = new FormData();
-      formDataToSend.append('name', formData.name);
+      formDataToSend.append('firstname', formData.firstname);
       formDataToSend.append('email', formData.email);
       formDataToSend.append('number', formData.number);
       formDataToSend.append('message', formData.message);
-      const response = await fetch('http://192.168.29.174/my-react-app/message_mail.php', {
+      const response = await fetch('https://iciacse.com/api/message_mail.php', {
         method: 'POST',
         body: formDataToSend,
       });
@@ -32,12 +32,12 @@ export const Home = () => {
         const result = await response.text();
         setStatus(result);
         setFormData({
-          name: '',
+          firstname: '',
           email: '',
           number: '',
           message: '',
         });
-        toast.success("Paper submitted successfully!");
+        toast.success("submitted successfully!");
         console.log("success")
       } else {
         setStatus('Failed to send submission. Please try again.');
@@ -49,6 +49,7 @@ export const Home = () => {
       toast.error('An error occurred. Please try again.');
     }
   };
+
 
   const invitees = [
     {
@@ -247,11 +248,11 @@ export const Home = () => {
                 <div className=" w-full">
                   <form onSubmit={handleSubmit} className="w-full grid lg:grid-cols-1 gap-3 rounded-xl" ngNativeValidate>
                     <div className="">
-                      <label for="email" className="block mb-2 text-sm mt-4 ">
+                      <label for="firstname" className="block mb-2 text-sm mt-4 ">
                         Name
                       </label>
-                      <input type="text" name="name" id="name"
-                        value={formData.name}
+                      <input type="text" name="firstname" id="firstname"
+                        value={formData.firstname}
                         onChange={handleChange}
                         ngModel className="shadow-sm   border text-sm   border-gray-300    bg-white text-black focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  mt-4" placeholder="Enter Your Name" required />
                     </div>
