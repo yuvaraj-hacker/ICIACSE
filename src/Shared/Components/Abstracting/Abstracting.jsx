@@ -45,7 +45,6 @@ function Abstracting() {
         const dateStr = now.toISOString().slice(0, 10).replace(/-/g, ''); // YYYYMMDD
         const timeStr = now.toTimeString().slice(0, 8).replace(/:/g, ''); // HHMMSS
         const uniqueId = `${journalName}_${dateStr}_${timeStr}`;
-
         try {
             const formDataToSend = new FormData();
             formDataToSend.append('Submission_ID', uniqueId);
@@ -54,11 +53,9 @@ function Abstracting() {
             formDataToSend.append('Email_Address', formData.Email_Address);
             formDataToSend.append('Institution_Name', formData.Institution_Name);
             formDataToSend.append('Paper_Track', formData.Paper_Track);
-
             if (formData.Paper_File) {
                 formDataToSend.append('Paper_File', formData.Paper_File);
             }
-
             const googleSheetsParams = new URLSearchParams();
             googleSheetsParams.append('Submission_ID', uniqueId);
             googleSheetsParams.append('journal_name', journalName);
@@ -67,12 +64,10 @@ function Abstracting() {
             googleSheetsParams.append('Email_Address', formData.Email_Address);
             googleSheetsParams.append('Institution_Name', formData.Institution_Name);
             googleSheetsParams.append('Paper_Track', formData.Paper_Track);
-
             const mailPromise = fetch('https://iciacse.com/api/send_mail.php', {
                 method: 'POST',
                 body: formDataToSend,
             });
-
             const sheetsPromise = fetch('https://script.google.com/macros/s/AKfycbwZ_TtKUqAfcue9TNCKy57hTrCKDUP5dTQnWbpSxBDzlRMllEuOoaxzRDl0kQPah5pZ/exec', {
                 method: 'POST',
                 mode: 'no-cors',
