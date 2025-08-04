@@ -1,15 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import Header from "../Core/Header";
-import { Outlet } from "react-router-dom";
+import { Outlet, useHref } from "react-router-dom";
 import Footer from "../Core/Footer";
 import { IoIosArrowUp } from "react-icons/io";
 
 const Main = () => {
   const [headerHeight, setHeaderHeight] = useState(0);
   const headerRef = useRef(null); // Ref for the Header
-  const mainRef = useRef(null); // Ref for the main content
+  const mainRef = useHref(null); // Ref for the main content
   const [showScroll, setShowScroll] = useState(false);
-
 
   useEffect(() => {
     // Set the initial header height when the component mounts
@@ -56,7 +55,7 @@ const Main = () => {
       </div>
       <main ref={mainRef} className=" "
       //   style={{ marginTop: `${headerHeight}px` }}
-       >
+      >
         <Outlet />
       </main>
       <div>

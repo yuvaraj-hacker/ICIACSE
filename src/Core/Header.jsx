@@ -99,7 +99,6 @@ const Header = () => {
             <Link to='/'>
               <div className="lg:hidden block">
                 <img className='w-32 h-12 object-contain ' src="/assets/images/ICIACSE LOGO.png" alt="" />
-                {/* <div className="   lg:hidden  block  text-white font-bold">ICIACSE</div> */}
               </div>
             </Link>
             <div className={`lg:hidden block  ${menuOpen ? "z-50" : ""}`}>
@@ -108,49 +107,18 @@ const Header = () => {
           </div>
         </div>
       </section>
-      {/* <div className={` ${menuOpen ? "" : ""}`}>
-        {menuOpen && (
-          <div className=" flex flex-col items-center space-y-4 w-full text-center bg-white py-2 shadow-lg">
-            {navLinks.map(
-              (link) =>
-                !link.desktopOnly && (
-                  <div key={link.to} to={link.to} className="relative   ">
-                    <Link onClick={() =>  link.dropdown && toggleDropdown(link.label) }
-                      className="text-black " >
-                      {link.label}
-                    </Link>
-                    {link.dropdown && aboutDropDownOpen === link.label && (
-                      <div className="     mt-3   bg-white   text-black border-gray-200 z-10 ">
-                        {link.dropdown.map((dropdownlink) => (
-                          <Link
-                            key={dropdownlink.to}
-                            to={dropdownlink.to}
-                            className="block px-4 py-2 text-black hover:bg-gray-100"
-                          >
-                            {dropdownlink.label}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                )
-            )}
-          </div>
-        )}
-      </div> */}
+
       <section className={` fixed top-0 right-0 h-full w-64 z-40 py-3  ${!isHome ? "bg-gradient-header  " : ""}  ${scrolled ? "bg-gradient-header" : " "} ${menuOpen ? "translate-x-0 duration-300 bg-white" : "translate-x-full duration-300"} lg:block lg:relative lg:w-auto lg:translate-x-0`} >
         <header className="max-w-[90rem] mx-auto md:px-5 px-2 h-full   w-full">
           <div className="lg:flex lg:justify-between justify-center items-center px-2 py-1">
             <Link to='/'>
               <img className='lg:w-40 w-40 md:block hidden h-10 ' src="/assets/images/ICIACSE LOGO.png" alt="LOGO" />
-              {/* <div className="lg:block hidden  text-white  font-bold text-3xl">ICIACSE</div> */}
             </Link>
             <nav ref={dropdownRef}>
               <div className={`lg:space-x-3 lg:block  mx-auto  lg:pt-0 pt-20  ${menuOpen ? "flex flex-col space-y-4" : ""}`}>
                 {navLinks.map((link) => (
                   <div key={link.to} className=" inline-block group relative"
-                    // onMouseEnter={() => handleMouseEnter(link.label)}
-                    // onMouseLeave={handleMouseLeave}
+
                     onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
                     onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}>
                     <Link to={link.to} className={`py-2 flex lg:w-[144px] w-full transition-all duration-300 ease-in-out lg:text-base md:text-sm justify-center items-center gap-2   font-semibold  lg:text-[#032530]   text-[#032530] ${isActive(link.to) || hoveredCategory === link.label ? 'md:border-t-0 duration-300 ' : ''} `}
@@ -163,9 +131,9 @@ const Header = () => {
                         <div className="lg:absolute left-0 top-full lg:w-[260px] w-full   bg-[#4AF8BA] transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top  grid md:grid-cols-1 md:p-0.5 z-10">
                           {link.dropdown.map((dropdownlink) => (
                             <>
-                                <Link key={dropdownlink.to} to={dropdownlink.to} className="block md:px-4 px-4 py-2   text-white md:text-start text-center md:bg-[#0A3B47] bg-[#0A3B47] " onClick={() => { setHoveredCategory(null); setMenuOpen(false); }} >
-                                  {dropdownlink.label}
-                                </Link>
+                              <Link key={dropdownlink.to} to={dropdownlink.to} className="block md:px-4 px-4 py-2   text-white md:text-start text-center md:bg-[#0A3B47] bg-[#0A3B47] " onClick={() => { setHoveredCategory(null); setMenuOpen(false); }} >
+                                {dropdownlink.label}
+                              </Link>
                             </>
                           ))}
                         </div>
