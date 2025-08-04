@@ -1,20 +1,24 @@
 import { Helmet } from "react-helmet";
 
-const HelmetComponent = ({ title }) => {
+const HelmetComponent = ({ title, canonical }) => {
     return (
         <Helmet>
             <title>{title}</title>
-            <meta name="keywords" content="International Conference on Intelligent Systems and Computational Methods, ICISCM, Intelligent Systems conference, Computational Methods conference, AI conference, Smart Computing conference, Machine Learning conference" />
-            <meta name="description" content="The International Conference on Intelligent Systems and Computational Methods (ICISCM) brings together researchers and professionals to share innovations in AI, intelligent systems, computational methods, and related technologies." />
-            <meta name="author" content="ICISCM Organizing Committee" />
+
+            <meta name="title" content="ICIACSE – International Conference on Computer Science & Engineering" />
+            <meta name="description" content="Join ICIACSE to explore latest research in computer science, software engineering, AI, cloud, and emerging technologies. Submit your paper today!" />
+            <meta name="keywords" content="ICIACSE, computer science conference, software engineering, AI conference, research conference, call for papers, international conference" />
+            <meta name="author" content="ICIACSE Organizing Committee" />
             <meta name="robots" content="index, follow" />
+
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="International Conference on Intelligent Systems and Computational Methods (ICISCM)" />
-            <meta property="og:description" content="The International Conference on Intelligent Systems and Computational Methods (ICISCM) brings together researchers and professionals to share innovations in AI, intelligent systems, computational methods, and related technologies." />
-            <meta property="og:url" content="https://www.iciscm.com/" />
-            <meta property="og:image" content="https://www.iciscm.com/assets/Images/ICISCM.png" />
-            <link rel="canonical" href="https://www.iciscm.com/" />
-            <link rel="icon" type="image/png" href="https://www.iciscm.com/assets/Images/Favicon.png" />
+            <meta property="og:url" content="https://iciacse.com/" />
+            <meta property="og:title" content="ICIACSE – International Conference on Computer Science & Engineering" />
+            <meta property="og:description" content="Explore pioneering research and innovation at ICIACSE. Topics include AI, software engineering, cloud, and emerging areas." />
+            <meta property="og:image" content="https://iciacse.com/assets/images/ICIACSE%20LOGO.png" />
+
+            <link rel="canonical" href={canonical} />
+            <link rel="icon" type="image/png" href="https://iciacse.com/assets/images/ICIACSE%20LOGO.png" />
 
         </Helmet>
     );

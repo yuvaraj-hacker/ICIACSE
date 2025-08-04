@@ -5,7 +5,7 @@ import HelmetComponent from '../Helmet/HelmetProvider'
 function ArticlePage() {
     return (
         <>
-            <HelmetComponent title="Article Processing - International Conference on Intelligent Systems and Computational Methods" />
+            <HelmetComponent title="Article Processing - International Conference on Innovations in Advanced Computing and Software Engineering" />
             <ArticleProcess />
         </>
 

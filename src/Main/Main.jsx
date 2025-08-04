@@ -7,7 +7,7 @@ import { IoIosArrowUp } from "react-icons/io";
 const Main = () => {
   const [headerHeight, setHeaderHeight] = useState(0);
   const headerRef = useRef(null); // Ref for the Header
-  const mainRef = useHref(null); // Ref for the main content
+  const mainRef = useRef(null); // Ref for the main content
   const [showScroll, setShowScroll] = useState(false);
 
   useEffect(() => {

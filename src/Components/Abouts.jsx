@@ -5,7 +5,7 @@ import HelmetComponent from './Helmet/HelmetProvider'
 function Abouts() {
   return (
     <>
-      {/* <HelmetComponent title="About - International Conference on Intelligent Systems and Computational Methods" /> */}
+      <HelmetComponent title="About - International Conference on Innovations in Advanced Computing and Software Engineering" canonical={'https://iciacse.com/about'} />
       <About />
     </>
   )

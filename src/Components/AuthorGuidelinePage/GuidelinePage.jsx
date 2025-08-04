@@ -5,7 +5,7 @@ import HelmetComponent from '../Helmet/HelmetProvider'
 function GuidelinePage() {
     return (
         <>
-            <HelmetComponent title="Author Guidelines - International Conference on Intelligent Systems and Computational Methods" />
+            <HelmetComponent title="Author Guidelines - International Conference on Innovations in Advanced Computing and Software Engineering" />
             <Guideline />
         </>
     )

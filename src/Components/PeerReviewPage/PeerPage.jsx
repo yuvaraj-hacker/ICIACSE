@@ -5,7 +5,7 @@ import HelmetComponent from '../Helmet/HelmetProvider'
 function PeerPage() {
     return (
         <>
-            {/* <HelmetComponent title="Conference Tracks - International Conference on Intelligent Systems and Computational Methods" /> */}
+            <HelmetComponent title="Conference Tracks - International Conference on Innovations in Advanced Computing and Software Engineering" canonical={'https://iciacse.com/conference-tracks'} />
             <PeerReview />
         </>
     )

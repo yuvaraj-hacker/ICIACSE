@@ -5,7 +5,7 @@ import HelmetComponent from '../Helmet/HelmetProvider'
 function IssuePage() {
     return (
         <>
-            {/* <HelmetComponent title="Editorial Board - International Conference on Intelligent Systems and Computational Methods" /> */}
+            <HelmetComponent title="Editorial Board - International Conference on Innovations in Advanced Computing and Software Engineering" canonical={'https://iciacse.com/editorial-board'} />
             <Issues />
         </>
     )
